@@ -76,6 +76,16 @@ Nejdříve si založte účet na [GitHubu](https://github.com/). Nic speciální
 
    Nahoře hned vidíte, pod jakou adresou je možné stránku rozkliknout. Jakékoli změny provedete, pokud je pushnete na GitHub, zobrazí se vám i na stránce.
 
+## Poznámka k úpravám provedeným v souborech Minima
+
+Možná jste si stejně jako já všimli, že vám na GitHub Pages zmizela Discord ikonka (pokud jste ji se mnou v předposledním díle přidali). To proto, že změny jsme provedli jen u sebe lokálně a nedali o tom vědět na GitHubu.
+
+Správný postup při provádění změn u šablon a témat je ten, že si vytvoříte kopii souborů ve složce s obsahem vašeho blogu a tu následně upravujete.
+
+V našem případě tedy vytvoříme složku "_includes" (na stjené úrovni jako jsou i složky _posts nebo assets) a do ní zkopírujeme námi upravený social.html. Stejně tak zkopírujeme soubor minima-social-icons.svg do složky assets.
+
+Pokud nyní všechno pushnete (git add ., git commit -m "Přidány upravené soubory Minimy", git push) na GitHub, měly by se během chvilky změny promítnout i přímo na vaší stránce, Discord ikonka by tedy měla být vidět i tam.
+
 ## Kam dál?
 
 *\-TBD\-*
