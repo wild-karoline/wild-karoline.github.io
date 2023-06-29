@@ -51,4 +51,4 @@ Již jsme viděli, že na proměnné ze souboru _config.yml je možné odkazovat
 
 ## Kam dál?
 
-*\-TBD\-*
+[Jak zveřejnit blog]({% post_url 2023-06-29-jak-zverejnit-blog %})
