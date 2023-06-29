@@ -5,6 +5,8 @@ date:   2023-06-29 19:00
 categories: Blogování
 ---
 
+[Předchozí]({% post_url 2023-06-28-jak-vytvorit-prispevek %})
+
 ## ... aneb využití GitHub Pages
 
 Každý uživatel má možnost využít prostor na doméně github.io (případně propojit stránky s vlastní doménou). A protože jakákoli stránka generovaná Jekyllem skvěle souzní s GitHub Pages a ještě je to zdarma, tak i já jsem se rozhodla se prozatím vydlábnout na vlastní doménu a placené hostování jinde a vyzkoušet tuto možnost.
@@ -66,10 +68,16 @@ Nejdříve si založte účet na [GitHubu](https://github.com/). Nic speciální
     Vyskočí-li vám jakákoli další chybová hláška, zkopírujte ji a zadejte do Googlu. Nebo napište, když budu mít čas, můžeme na to mrknout společně.
 
 3. Zpátky na GitHub:
-   Najeďte na vaše repository (přes ikonu avatara a "Your repositories", kde kliknete na předtím vytvořené repository). Zde pod "Settings" najdete sekci "Pages". 
+   Najeďte na vaše repository (přes ikonu avatara a "Your repositories", kde kliknete na předtím vytvořené repository). Zde pod "Settings" najdete sekci "Pages".
 
    Já mám kód ve složce docs, tedy to u mě vypadá následovně:
 
    ![Screenshot GitHub Pages](/assets/images/gh-pages.JPG)
 
    Nahoře hned vidíte, pod jakou adresou je možné stránku rozkliknout. Jakékoli změny provedete, pokud je pushnete na GitHub, zobrazí se vám i na stránce.
+
+## Kam dál?
+
+*\-TBD\-*
+
+**Pozor, chystám se na dovolenou. Nedokážu tedy zatím říct, co bude následovat, ani kdy to bude zveřejněné. Nejpozději snad v týdnu 17.7.-21.7.**
