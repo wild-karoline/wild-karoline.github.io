@@ -66,4 +66,10 @@ Nejdříve si založte účet na [GitHubu](https://github.com/). Nic speciální
     Vyskočí-li vám jakákoli další chybová hláška, zkopírujte ji a zadejte do Googlu. Nebo napište, když budu mít čas, můžeme na to mrknout společně.
 
 3. Zpátky na GitHub:
-   
+   Najeďte na vaše repository (přes ikonu avatara a "Your repositories", kde kliknete na předtím vytvořené repository). Zde pod "Settings" najdete sekci "Pages". 
+
+   Já mám kód ve složce docs, tedy to u mě vypadá následovně:
+
+   ![Screenshot GitHub Pages](/assets/images/gh-pages.JPG)
+
+   Nahoře hned vidíte, pod jakou adresou je možné stránku rozkliknout. Jakékoli změny provedete, pokud je pushnete na GitHub, zobrazí se vám i na stránce.
