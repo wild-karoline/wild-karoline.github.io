@@ -10,7 +10,7 @@ category: Blogování
 
 Pokud se Vám podařilo vše spustit tak, jak jsem popsala v posledním článku, měli byste mít stránku vypadající zhruba následovně:
 
-![Screenshot náhledu blogu bez úprav](/assets/images/initial_look.jpg)
+![Screenshot náhledu blogu bez úprav](/assets/images/initial_look.JPG)
 
 V dnešním článku Vám ukážu, kde je třeba provést změny, abyste blogu mohli dodat název a například vyměnili vzorovou emalovou adresu za vlastní.
 
@@ -28,7 +28,7 @@ Pro zvědavé, tady postup, jak jsem Discord přidala:
 
 1. V souboru _config.yml jsem pod github_username přidala proměnnou discord_server a za dvojtečku dodala název mého serveru.
 
-    ![Screenshot _config.yml s proměnnou discord_server](/assets/images/config_discord.jpg)
+    ![Screenshot _config.yml s proměnnou discord_server](/assets/images/config_discord.JPG)
 
 2. Ikony se nacházejí v zápatí hlavní/domovské stránky. Jak je vidět v _config.yml, blog defaultně používá šablonu/theme "minima". Aby bylo možné zápatí upravit, musíme nejdřív najít soubory tvořící minimu:
 
@@ -50,7 +50,7 @@ Pro zvědavé, tady postup, jak jsem Discord přidala:
 
 A zde výsledek pro srovnání v počátečním screenshotem:
 
-![Screenshot náhledu blogu po základních úpravách](/assets/images/look_after_config_changes.jpg)
+![Screenshot náhledu blogu po základních úpravách](/assets/images/look_after_config_changes.JPG)
 
 ## Kam dál?
 
