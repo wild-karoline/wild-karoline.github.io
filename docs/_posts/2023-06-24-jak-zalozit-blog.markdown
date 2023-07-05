@@ -2,7 +2,7 @@
 layout: post
 title:  "Jak založit blog"
 date:   2023-06-24 09:07
-categories: Blogování
+category: Blogování
 ---
 
 *Už nějaký ten pátek si pohrávám s myšlenkou založit si blog. Nic speciálního, jen můj vlastní prostor pro sdílení myšlenek. Po dlouhém rozmýšlení a zvažování, jak na to (a hromady pročtených online postů a návodů), jsem se nakonec rozhodla prostě vyzkoušet štěstí s Jekyllem. Ptáte se proč zrovna Jekyll? Jednoduše proto, že je zdarma a spustit to celé nakonec můžu přes GitHub, který je taktéž k dispozici bezplatně. Ideál na zkoušení nových věcí.*

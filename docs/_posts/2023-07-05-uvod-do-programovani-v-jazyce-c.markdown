@@ -2,7 +2,7 @@
 layout: post
 title:  "Úvod do programování v jazyce C"
 date:   2023-07-05 10:20
-categories: Programovací jazyk C
+category: Programovací jazyk C
 ---
 
 Na úvod si vyjasněme pár pojmů, informací a funkcí.

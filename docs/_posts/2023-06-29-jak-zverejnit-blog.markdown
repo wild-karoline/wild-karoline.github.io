@@ -2,7 +2,7 @@
 layout: post
 title:  "Jak  zveřejnit blog"
 date:   2023-06-29 19:00
-categories: Blogování
+category: Blogování
 ---
 
 [Předchozí]({% post_url 2023-06-28-jak-vytvorit-prispevek %})

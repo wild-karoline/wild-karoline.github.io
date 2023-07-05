@@ -2,7 +2,7 @@
 layout: post
 title:  "Základní konfigurace blogu"
 date:   2023-06-26 21:03
-categories: Blogování
+category: Blogování
 ---
 
 [Předchozí]({% post_url 2023-06-24-jak-zalozit-blog %})

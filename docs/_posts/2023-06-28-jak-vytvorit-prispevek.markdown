@@ -2,7 +2,7 @@
 layout: post
 title:  "Jak  vytvořit příspěvek na blog"
 date:   2023-06-28 11:38
-categories: Blogování
+category: Blogování
 ---
 
 [Předchozí]({% post_url 2023-06-26-zakladni-konfigurace-blogu %})
@@ -30,7 +30,7 @@ Například:
 2023-06-24-jak-zalozit-blog.markdown
 {% endhighlight %}
 
-## Front Matter 
+## Front Matter
 
 Každý soubor s novým příspěvkem musí začínat tzv. *front matter*, kterým určujeme použité rozvržení (layout), případně další metadata. Samozřejmě může být i prázdný. První řádky souboru tedy můžou vypadat například následovně:
 
