@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Jak založit blog"
-date:   2023-06-24 09:07
+date:   2023-06-24 09:07:00 +0200
+last_modified_at: 2023-07-05 12:30:00 +0200
 category: Blogování
 ---
 

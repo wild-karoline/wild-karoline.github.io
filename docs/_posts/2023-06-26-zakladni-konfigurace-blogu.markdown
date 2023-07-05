@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Základní konfigurace blogu"
-date:   2023-06-26 21:03
-last_modified_at: 2023-07-05 12:30
+date:   2023-06-26 21:03:00 +0200
+last_modified_at: 2023-07-05 12:30:00 +0200
 category: Blogování
 ---
 
