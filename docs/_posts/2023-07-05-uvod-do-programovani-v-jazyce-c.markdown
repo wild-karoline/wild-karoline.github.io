@@ -2,7 +2,7 @@
 layout: post
 title:  "Úvod do programování v jazyce C"
 date:   2023-07-05 10:20:00 +0200
-last_modified_at: 2023-07-05 12:30:00 +0200
+last_modified_at: 2023-07-07 12:30:00 +0200
 category: Programovací jazyk C
 ---
 
