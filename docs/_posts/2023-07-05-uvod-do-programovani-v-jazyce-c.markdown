@@ -84,3 +84,9 @@ clang hi.c
 ```
 
 Prvním příkazem vytvoříte složku C. Druhým příkazem se do ní přesunete. Třetím příkazem vytvoříte soubor hi.c, příkazem *codium hi.c* soubor otevřete ve VSCodium. Po uložení změn soubor přeložíte pomocí *clang hi.c*, který vám vytvoří tzv. *executable*, spustitelný soubor s názvem *a.out*. Takový soubor spustíte pomocí posledního příkazu.
+
+Pokud se vše podařilo, měli byste ve WSL okně vidět *hi*. Gratuluji k napsání, překladu a spuštění vašeho prvního programu! 😄.
+
+## Kam dál?
+
+*\-TBD\-*
