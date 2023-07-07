@@ -2,7 +2,7 @@
 layout: post
 title:  "Jak  zveřejnit blog"
 date:   2023-06-29 19:00:00 +0200
-last_modified_at: 2023-07-05 12:30:00 +0200
+last_modified_at: 2023-07-07 17:00:00 +0200
 category: Blogování
 ---
 
@@ -91,4 +91,4 @@ Pokud nyní všechno pushnete (git add ., git commit -m "Přidány upravené sou
 
 *\-TBD\-*
 
-**Pozor, chystám se na dovolenou. Nedokážu tedy zatím říct, co bude následovat, ani kdy to bude zveřejněné. Nejpozději snad v týdnu 17.7.-21.7.**
+**Pozor, jsem na dovolené. Nedokážu tedy zatím říct, co bude následovat, ani kdy to bude zveřejněné.**

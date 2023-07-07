@@ -2,7 +2,7 @@
 layout: post
 title:  "Úvod do programování v jazyce C"
 date:   2023-07-05 10:20:00 +0200
-last_modified_at: 2023-07-07 12:30:00 +0200
+last_modified_at: 2023-07-07 17:00:00 +0200
 category: Programovací jazyk C
 ---
 
@@ -89,4 +89,4 @@ Pokud se vše podařilo, měli byste ve WSL okně vidět *hi*. Gratuluji k naps�
 
 ## Kam dál?
 
-*\-TBD\-*
+[První program, datové typy a printf]({% post_url 2023-07-07-prvni-program-datove-typy-a-printf %})

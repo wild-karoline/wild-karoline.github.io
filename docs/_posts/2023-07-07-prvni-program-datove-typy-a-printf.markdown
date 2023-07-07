@@ -2,11 +2,11 @@
 layout: post
 title:  "První program, datové typy a printf"
 date:   2023-07-07 12:30:00 +0200
-last_modified_at: 2023-07-07 16:30:00 +0200
+last_modified_at: 2023-07-07 17:00:00 +0200
 category: Programovací jazyk C
 ---
 
-[Předchozí]({% post_url 2023-07-07-prvni-program-datove-typy-a-printf %})
+[Předchozí]({% post_url 2023-07-05-uvod-do-programovani-v-jazyce-c %})
 
 V minulém díle jsme si ukázali nástroje, které budeme k programování využívat a napsali, zkompilovali a spustili první program. Nyní vám povím ještě něco málo k teorii, stavbě takového programu a dáme si lehký úvod do datových typů.
 
@@ -194,3 +194,9 @@ Pro úplnost ještě zmínka k \n - znamená *newline* a značí nový řádek. 
 V programovacím jazyce C lze jakoukoli proměnnou interpretovat jako pravdivostní hodnotu (v AJ *bool* nebo *Boolean*). Hodnota 0 pak znamená nepravdu a jakákoli jiná hodnota (včetně záporných čísel) pravdu.
 
 Od standardu C99 lze používat datový typ _Bool (díky #include <stdbool.h>) a s ním mj. přicházejícími makry true (pravda) a false (nepravda).
+
+## Kam dál?
+
+*\-TBD\-*
+
+**Pozor, jsem na dovolené. Nedokážu tedy zatím říct, co bude následovat, ani kdy to bude zveřejněné.**
