@@ -2,8 +2,9 @@
 layout: post
 title:  "Jak  vytvořit příspěvek na blog"
 date:   2023-06-28 11:38:00 +0200
-last_modified_at: 2023-07-05 12:30:00 +0200
+last_modified_at: 2023-07-11 08:30:00 +0200
 category: Blogování
+description: Úvod do blogování s Jekyllem. Třetí díl blogování zdarma, vytvoření příspěvku.
 ---
 
 [Předchozí]({% post_url 2023-06-26-zakladni-konfigurace-blogu %})
