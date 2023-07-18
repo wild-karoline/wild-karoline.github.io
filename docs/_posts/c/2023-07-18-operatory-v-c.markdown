@@ -145,6 +145,20 @@ Mezi logické operátory řadíme:
 - && (AND, výsledkem je pravda, pokud všechny proměnné jsou pravdivé, nepravda v opačném případě)
 - &#124;&#124; (OR, výsledkem je pravda, pokud alespoň jedna z proměnných je pravdivá)
 
+Céčko provádí tzv. zkrácené vyhodnocování složených výrazů, tzv. "short circuit evaluation". Tzn., že v případě AND (a zároveň) stačí, aby jediný výraz byl nepravda a program přestane vyhodnocovat cokoliv, co stojí dále v pravo za tímto výrazem, protože to již na výsledek nebude mít vliv (výsledek bude nepravda). Podobně je to u OR (nebo). Tam stačí, aby byl jediný výraz pravda a bude celý výsledek pravdivý, aniž by bylo potřeba vyhodnocovat ostatní části výrazu stojící dále vpravo od pravdivé proměnné.
+
+Využití najdeme pro logické operátory například v situaci, kdy se chceme ujistit, že uživatel neobjedná víc než nějaký maximální počet položek a zároveň ani nezadá do objednávky negativní číslo. Výtažek z takového kódu by mohl vypadat následovně:
+
+{% highlight c %}
+int max = 20;
+
+amount_ok = !((order < 0) || (order > max));
+amount_ok = !(order < 0) && !(order > max);
+amount_ok = (order >= 0) && !(order <= max);
+{% endhighlight %}
+
+V proměnné *amount_ok* bychom v takovémto případě uložili informaci, zda je objednané množství v pořádku (0 nebo 1, ano nebo ne). Objednané množství by mohlo být uložené za proměnnou *order* a max definováno v kódu. Výsledek v proměnné *amount_ok* je ve všech třech případech stejný.
+
 ## Kam dál?
 
 *\-TBD\-*
