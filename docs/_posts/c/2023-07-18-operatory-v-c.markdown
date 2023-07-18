@@ -38,7 +38,7 @@ Rovněž se zahodí vše za desetinnou čárkou, pokud byste takové číslo cht
 {% highlight c %}
 int sum = 1 + 0.5;
 printf("%d\n", sum);
-int sum = 1 - 0.5;
+sum = 1 - 0.5;
 printf("%d\n", sum);
 {% endhighlight %}
 
