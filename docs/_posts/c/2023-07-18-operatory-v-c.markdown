@@ -42,6 +42,8 @@ sum = 1 - 0.5;
 printf("%d\n", sum);
 {% endhighlight %}
 
+(Kód výše naleznete i na GitHubu pod [tímto odkazem](https://github.com/wild-karoline/C/blob/main/03_operatory-v-c/arithmetics.c)).
+
 ### Závorky
 
 Používejte závorky při programování a používání vícero operátorů najednou. Poslouží nejenom k tomu, že výsledek bude opravdu takový, jaký chcete, ale dopomůžou také k větší přehlednosti (myslete na již zmiňovanou čitelnost kódu). Závorky můžete i škatulkovat do sebe a pokud byste náhodou někde nějakou zapomněli, měla by vás na to upozornit buď IDE, nebo nejpozději compiler.
@@ -58,6 +60,8 @@ printf("%f\n", average);
 average = (a + b) / 2;
 printf("%f\n", average);
 {% endhighlight %}
+
+(Kód výše naleznete i na GitHubu pod [tímto odkazem](https://github.com/wild-karoline/C/blob/main/03_operatory-v-c/arithmetics.c). Doporučuju ale si výsledek zkusit nejdřív představit, než si program pustíte.)
 
 ### Inkrement a dekrement
 
@@ -97,6 +101,8 @@ int main(void)
 }
 {% endhighlight %}
 
+(Kód výše naleznete i na GitHubu pod [tímto odkazem](https://github.com/wild-karoline/C/blob/main/03_operatory-v-c/in-and-decrement.c). Doporučuju si výsledek ale nejdříve představit, než si ho necháte vytisknout přes stdout.)
+
 ### Další zkratky
 
 Programátoři jsou občas líní tvorové a co můžou zkrátit, to zkrátí. C proto nabízí i další zkratky (vedle inkrementu a dekrementu):
@@ -121,6 +127,8 @@ int a = 3;
 int b = 4;
 b *= --a;
 {% endhighlight %}
+
+(Kód výše naleznete i na GitHubu pod [tímto odkazem](https://github.com/wild-karoline/C/blob/main/03_operatory-v-c/shorthand.c). I tady doporučuju se nejdřív zamyslet nad výsledkem, než si program pustíte.)
 
 ## Porovnávací a logické operátory
 
@@ -156,6 +164,8 @@ amount_ok = !((order < 0) || (order > max));
 amount_ok = !(order < 0) && !(order > max);
 amount_ok = (order >= 0) && (order <= max);
 {% endhighlight %}
+
+(Zjednoduššenou verzi toho, jak by takový kód mohl vypadat, naleznete i na GitHubu pod [tímto odkazem](https://github.com/wild-karoline/C/blob/main/03_operatory-v-c/logics.c).)
 
 V proměnné *amount_ok* bychom v takovémto případě uložili informaci, zda je objednané množství v pořádku (0 nebo 1, ano nebo ne). Objednané množství by mohlo být uložené za proměnnou *order* a max definováno v kódu. Výsledek v proměnné *amount_ok* je ve všech třech případech stejný.
 
