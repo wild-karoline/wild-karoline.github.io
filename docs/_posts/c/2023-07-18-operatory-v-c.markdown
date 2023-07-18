@@ -27,7 +27,7 @@ printf("%f\n", result);
 
 {% highlight c %}
 int operand = 1;
-float result = a / 2;
+float result = operand / 2;
 printf("%f\n", result);
 result = operand / 2.0;
 printf("%f\n", result);
