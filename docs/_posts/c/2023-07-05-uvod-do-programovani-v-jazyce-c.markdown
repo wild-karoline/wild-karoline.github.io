@@ -90,4 +90,4 @@ Pokud se vše podařilo, měli byste ve WSL okně vidět *hi*. Gratuluji k naps�
 
 ## Kam dál?
 
-[První program, datové typy a printf]({% post_url 2023-07-07-prvni-program-datove-typy-a-printf %})
+[První program, datové typy a printf]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %})

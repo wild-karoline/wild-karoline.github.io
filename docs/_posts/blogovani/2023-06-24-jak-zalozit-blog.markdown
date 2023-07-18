@@ -50,4 +50,4 @@ bundle exec jekyll serve
 
 ## Kam dál?
 
-[Základní konfigurace]({% post_url 2023-06-26-zakladni-konfigurace-blogu %})
+[Základní konfigurace]({% post_url blogovani/2023-06-26-zakladni-konfigurace-blogu %})

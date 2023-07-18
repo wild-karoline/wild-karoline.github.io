@@ -7,14 +7,13 @@ category: Programovací jazyk C
 description: Rozbor zdrojového kódu v jazyce C. Komentáře, printf, main, příkazy pro preprocesor, whitespaces. Proměnné, datové typy, modifier. Pravdivostní hodnoty.
 ---
 
-[Předchozí]({% post_url 2023-07-05-uvod-do-programovani-v-jazyce-c %})
+[Předchozí]({% post_url c/2023-07-05-uvod-do-programovani-v-jazyce-c %})
 
 V minulém díle jsme si ukázali nástroje, které budeme k programování využívat a napsali, zkompilovali a spustili první program. Nyní vám povím ještě něco málo k teorii, stavbě takového programu a dáme si lehký úvod do datových typů.
 
 ## Program psaný v jazyce C
 
 Už jsem to zmínila minule, ale pokud budete psát programy, zkuste je psát od počátku v angličtině (pokud angličtinu ovládáte). Angličtina je jazyk, který se v IT světě používá, protože nikdy nevíte, kdo se bude chtít na váš program mrknout, z kterého koutu světa bude.
-
 
 ### Komentáře 
 Dále jsou pro většinu programů důležité komentáře. Zde se nejenom hledí na to, že váš program možná bude chtít rozluštit někdo jiný, ale také pro vás můžou být důležité. Z vlastní zkušenosti vím, že když se na kód (hlavně pokud už se třeba jedná o něco komplikovanějšího) podíváte za 3, 6 nebo třeba 12 měsíců, budete rádi, když tam sem tam najdete nějaké vysvětlivky v podobě komentářů.

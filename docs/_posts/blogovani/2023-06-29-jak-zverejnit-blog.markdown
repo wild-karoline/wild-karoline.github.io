@@ -7,7 +7,7 @@ category: Blogování
 description: Úvod do blogování s Jekyllem. Spuštění blogu na GitHub Pages (stále vše zdarma).
 ---
 
-[Předchozí]({% post_url 2023-06-28-jak-vytvorit-prispevek %})
+[Předchozí]({% post_url blogovani/2023-06-28-jak-vytvorit-prispevek %})
 
 ## ... aneb využití GitHub Pages
 
@@ -90,6 +90,4 @@ Pokud nyní všechno pushnete (git add ., git commit -m "Přidány upravené sou
 
 ## Kam dál?
 
-*\-TBD\-*
-
-**Pozor, jsem na dovolené. Nedokážu tedy zatím říct, co bude následovat, ani kdy to bude zveřejněné.**
+[Příspěvek se nezobrazuje?]({% post_url blogovani/2023-07-18-prispevek-se-nezobrazuje %})

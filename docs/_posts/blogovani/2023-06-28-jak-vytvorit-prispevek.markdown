@@ -7,11 +7,11 @@ category: Blogování
 description: Úvod do blogování s Jekyllem. Třetí díl blogování zdarma, vytvoření příspěvku.
 ---
 
-[Předchozí]({% post_url 2023-06-26-zakladni-konfigurace-blogu %})
+[Předchozí]({% post_url blogovani/2023-06-26-zakladni-konfigurace-blogu %})
 
 Základní kostru blogu a jeho konfiguraci jsme si vytvořili v minulých dílech. Nyní se pojďme podívat na to, jak se s Jekyllem vytváří nové příspěvky.
 
-Příspěvky se v Jekyllu píšou ve značkovacím jazyku *Markdown*. Nelekejte se, není to žádná věda. Jekyll vám na začátku vygeneroval příklad příspěvku, jehož obsah můžete pro začátek zkopírovat a upravit.
+Příspěvky se v Jekyllu píšou ve značkovacím jazyku *Markdown*. Nelekejte se, není to žádná věda. Jekyll vám na začátku vygeneroval příklad příspěvku, jehož obsah můžete pro začátek zkopírovat a upravit. Samozřejmě se můžete inspirovat i u mě a pokud se vám nějaká funkcionalita nebo zobrazení líbí, neváhejte navštívit [repositář na GitHubu](https://github.com/wild-karoline/wild-karoline.github.io) a mrknout, jak jsem to vyřešila v MARKUPu.
 
 ## Název a umístění souboru s textem příspěvku
 
@@ -53,4 +53,4 @@ Již jsme viděli, že na proměnné ze souboru _config.yml je možné odkazovat
 
 ## Kam dál?
 
-[Jak zveřejnit blog]({% post_url 2023-06-29-jak-zverejnit-blog %})
+[Jak zveřejnit blog]({% post_url blogovani/2023-06-29-jak-zverejnit-blog %})

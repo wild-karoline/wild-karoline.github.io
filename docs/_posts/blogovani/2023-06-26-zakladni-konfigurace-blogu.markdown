@@ -7,7 +7,7 @@ category: Blogování
 description: Úvod do blogování s Jekyllem. Druhý díl blogování zdarma. Základní konfigurace Jekyll blogu.
 ---
 
-[Předchozí]({% post_url 2023-06-24-jak-zalozit-blog %})
+[Předchozí]({% post_url blogovani/2023-06-24-jak-zalozit-blog %})
 
 Pokud se Vám podařilo vše spustit tak, jak jsem popsala v posledním článku, měli byste mít stránku vypadající zhruba následovně:
 
@@ -55,4 +55,4 @@ A zde výsledek pro srovnání v počátečním screenshotem:
 
 ## Kam dál?
 
-[Jak vytvořit příspěvek na blog]({% post_url 2023-06-28-jak-vytvorit-prispevek %})
+[Jak vytvořit příspěvek na blog]({% post_url blogovani/2023-06-28-jak-vytvorit-prispevek %})
