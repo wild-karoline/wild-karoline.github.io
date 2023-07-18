@@ -154,7 +154,7 @@ int max = 20;
 
 amount_ok = !((order < 0) || (order > max));
 amount_ok = !(order < 0) && !(order > max);
-amount_ok = (order >= 0) && !(order <= max);
+amount_ok = (order >= 0) && (order <= max);
 {% endhighlight %}
 
 V proměnné *amount_ok* bychom v takovémto případě uložili informaci, zda je objednané množství v pořádku (0 nebo 1, ano nebo ne). Objednané množství by mohlo být uložené za proměnnou *order* a max definováno v kódu. Výsledek v proměnné *amount_ok* je ve všech třech případech stejný.
