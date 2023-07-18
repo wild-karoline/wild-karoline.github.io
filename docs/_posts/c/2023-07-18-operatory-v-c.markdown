@@ -4,6 +4,7 @@ title:  "Operátory v C"
 date:   2023-07-18 08:30:00 +0200
 last_modified_at: 2023-07-18 15:30:00 +0200
 category: Programovací jazyk C
+read_time: 3 min 44 s
 description: Aritmetické a logické operátory v programovacím jazyce C.
 ---
 
