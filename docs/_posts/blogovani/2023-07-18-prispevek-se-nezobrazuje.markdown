@@ -2,7 +2,7 @@
 layout: post
 title:  "Příspěvek se nezobrazuje?"
 date:   2023-07-18 08:00:00 +0200
-last_modified_at: 2023-07-18 08:00:00 +0200
+last_modified_at: 2023-07-20 08:30:00 +0200
 category: Blogování
 read_time: 0 min 50 s
 description: Úvod do blogování s Jekyllem. Možné řešení problému s příspěvkem, který se nezobrazuje na blogu.
@@ -23,6 +23,4 @@ Důvodů pro nezobrazení příspěvků může být i vícero. Pokud se někdy s
 
 ## Kam dál?
 
-*\-TBD\-*
-
-**Pozor, jsem na dovolené. Nedokážu tedy zatím říct, co bude následovat, ani kdy to bude zveřejněné.**
+[Jak jsem vytvořila rozcestník]({% post_url blogovani/2023-07-20-jak-jsem-vytvorila-rozcestnik %})
