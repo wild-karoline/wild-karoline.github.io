@@ -3,3 +3,19 @@
 ---
 
 @import "minima";
+
+/**
+ * Images
+ */
+ img {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+figcaption {
+    font-size: $small-font-size;
+    text-align: center;
+    color: rgb(169, 167, 167);
+  }
