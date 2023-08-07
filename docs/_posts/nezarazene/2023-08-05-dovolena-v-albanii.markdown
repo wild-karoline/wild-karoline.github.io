@@ -127,7 +127,7 @@ Oblast od Qepara po Dhërmi zahrnující právě Himarë se nám líbila nejvíc
 
 Ze Sarandy do Himare je to co by kamenem dohodil. A protože jsme měli tedy dost času, brouzdali jsme [FB skupinou o Albánii](https://www.facebook.com/groups/cestujemedoalbanie/) a narazili na tip zastavit se v horním Qeparu. V příspěvku doslova stálo "zahněte u 2 šedivých vrat". Bez bližšího infa jsme to opravdu zvládli. Pro nervózní, jako jsme byli my, přikládám výstřižek z Google maps, vrata nelze přehlédnout. Ještě dodám, že cesta je opět jen pro otrlé řidiče - velmi úzká a velmi strmá.
 
-{% include image.html url="/assets/images/albanie/himare/qeparo-vrata.jpg" description="Šedivá vrata, silnice k hornímu Qeparu" %}
+{% include image.html url="/assets/images/albanie/himare/qeparo-vrata.JPG" description="Šedivá vrata, silnice k hornímu Qeparu" %}
 
 A opravdu, jak bylo psáno na FB, horní Qeparo je místo, kde se snad zastavil čas. Kamenné domky, krásný výhled, velmi milá paní hospodská.
 
