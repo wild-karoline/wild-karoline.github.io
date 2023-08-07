@@ -17,7 +17,7 @@ Každý uživatel má možnost využít prostor na doméně github.io (případn
 
 ## Co je to vlastně GitHub
 
-GitHub jsem poznala hlavně jako možnost kolaborace na vývoji softwaru a jeho verzování pomocí nástorje Git. Když na to bude chvilka, určitě se na GitHub zaměřím více a zkusím vysvětlit možnosti, které nabízí. Pro začátek blogování ale stačí vědět, jak tam soubory nahrajeme a jak stránku spustíme pomocí GitHub Pages.
+GitHub jsem poznala hlavně jako možnost kolaborace na vývoji softwaru a jeho verzování pomocí nástroje Git. Když na to bude chvilka, určitě se na GitHub zaměřím více a zkusím vysvětlit možnosti, které nabízí. Pro začátek blogování ale stačí vědět, jak tam soubory nahrajeme a jak stránku spustíme pomocí GitHub Pages.
 
 ## Registrace
 
@@ -86,7 +86,7 @@ Možná jste si stejně jako já všimli, že vám na GitHub Pages zmizela Disco
 
 Správný postup při provádění změn u šablon a témat je ten, že si vytvoříte kopii souborů ve složce s obsahem vašeho blogu a tu následně upravujete.
 
-V našem případě tedy vytvoříme složku "_includes" (na stjené úrovni jako jsou i složky _posts nebo assets) a do ní zkopírujeme námi upravený social.html. Stejně tak zkopírujeme soubor minima-social-icons.svg do složky assets.
+V našem případě tedy vytvoříme složku "_includes" (na stejné úrovni jako jsou i složky _posts nebo assets) a do ní zkopírujeme námi upravený social.html. Stejně tak zkopírujeme soubor minima-social-icons.svg do složky assets.
 
 Pokud nyní všechno pushnete (git add ., git commit -m "Přidány upravené soubory Minimy", git push) na GitHub, měly by se během chvilky změny promítnout i přímo na vaší stránce, Discord ikonka by tedy měla být vidět i tam.
 
