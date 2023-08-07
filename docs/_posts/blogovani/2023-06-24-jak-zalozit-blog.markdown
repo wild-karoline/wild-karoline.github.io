@@ -47,7 +47,7 @@ cd mujblog
 bundle exec jekyll serve
 {% endhighlight %}
 
-- tímto příkazem lokálně zpřístupníte stránku, kterou následně můžete otevrít v prohlížeči pod [http:localhost:4000](http:localhost:4000) (pozor, nezavírejte okno s příkazovým řádkem)
+- tímto příkazem lokálně zpřístupníte stránku, kterou následně můžete otevřít v prohlížeči pod [http:localhost:4000](http:localhost:4000) (pozor, nezavírejte okno s příkazovým řádkem)
 - jekyll new vám vytvoří blog s již vytvořenou stránkou "About" a prvním postem a tématem (šablonou) "Minima"
 
 ## Kam dál?
