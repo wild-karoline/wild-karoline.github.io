@@ -21,25 +21,25 @@ Protože je Albánie z Rakouska (i Česka) celkem daleko, stavěli jsme cestou d
 
 První noc jsme spali v kempu v Prapratnu. Kemp nebyl vybírán dopředu, z Grazu jsme vyrazili s tím, že cestou něco najdeme. Do Prapratna jsme původně sjeli jenom kvůli tomu, že jsme hledali nejbližší market. No nakonec se nám pláž fakt hodně líbila a kemp byl hned vedle. Cenově nás 1 noc v kempu vyšla na ca. 45 Euro (3 osoby, 1 auto, 1 stan) a v marketu mají kozla. Pláž je fakt skvostná, dokonce nám jeden německý pán říkal, že po 20 letech ježdění dolů do Chorvatska je Prapratno beach nejhezčí pláž, kterou tam kdy viděl.
 
-![Prapratno beach, Chorvatsko](/assets/images/albanie/prapratno/prapratno2.jpg)
+{% include image.html url="/assets/images/albanie/prapratno/prapratno2.jpg" description="Prapratno beach, Chorvatsko" %}
 
-![Prapratno beach, Chorvatsko](/assets/images/albanie/prapratno/prapratno.jpg)
+{% include image.html url="/assets/images/albanie/prapratno/prapratno.jpg" description="Prapratno beach, Chorvatsko" %}
 
-![Prapratno beach, Chorvatsko](/assets/images/albanie/prapratno/prapratno-kozel.jpg)
+{% include image.html url="/assets/images/albanie/prapratno/prapratno-kozel.jpg" description="Prapratno beach, Chorvatsko" %}
 
 V neděli ráno jsme pobalili našich 5 švestek a vyrazili dál. Měli jsme chuť na kafe a bratr měl hlad. To jsme ještě netušili, že najít kavárnu nebo pekárnu bude první oříšek. A když už jsme něco takového našli, tak tam samozřejmě byl takový nával, že najít parkoviště bylo téměř nemožné. Záchranu nám poskytl Studenac. Nebylo to ideální, ale brácha se najedl a my měli kafe 😂. Uvnitř měli automat na kafe (nevím, jestli to tak má každý Studenac market).
 
-![Snídaně před Studenac marketem](/assets/images/albanie/veliki-zal/studenac-snidane.jpg)
+{% include image.html url="/assets/images/albanie/veliki-zal/studenac-snidane.jpg" description="Snídaně před Studenac marketem" %}
 
 Cestou pro kafe už jsme se rozhlíželi po další pláži, kde bysme mohli na pár hodin zakempit. Do oka nám padl Veliki žal. Původně jsme mysleli, že se dá parkovat jen nahoře u silnice, ale byli jsme mile překvapeni, když jsme zjistili, že se dá autem dojet až úplně dolů k pláži. Pláž je menší, dají se půjčit lehátka (téměř tam nejsou stinná místa, my si na jedno počkali u piva) a je tam jedna hospoda.
 
-![Pláž Veliki žal](/assets/images/albanie/veliki-zal/veliki-zal.jpg)
+{% include image.html url="/assets/images/albanie/veliki-zal/veliki-zal.jpg" description="Pláž Veliki žal" %}
 
-![Pláž Veliki žal](/assets/images/albanie/veliki-zal/veliki-zal2.jpg)
+{% include image.html url="/assets/images/albanie/veliki-zal/veliki-zal2.jpg" description="Pláž Veliki žal" %}
 
 Highlight dne byli delfíni! Vím, že je na fotce prd vidět, ale i tak vám ji sem dám 😄. Bylo jich 5 nebo 6 a určitě hodinu se proháněli v dáli před námi. Už jsem od známých slyšela, že delfíny viděli často (oblast Istrie), no nám se nikdy nepoštěstilo. Až do tohohle dne. A to Bláža říkala, že takhle jižně je opravdu neobvyklé nějaké spatřit.
 
-![Delfín na pláži Veliki žal](/assets/images/albanie/veliki-zal/veliki-zal-delfin.jpg)
+{% include image.html url="/assets/images/albanie/veliki-zal/veliki-zal-delfin.jpg" description="Delfín na pláži Veliki žal" %}
 
 ### Dubrovnik
 
@@ -47,19 +47,19 @@ Jsem neskutečně ráda, že jsem dostala možnost navštívit Dubrovnik. Dubrov
 
 Ubytovaní jsme byli kousek od mostu Dr. Franja Tudmana. Z jedné strany mostu kotví ohromné výletní lodě, z druhé se dá koupat.
 
-![Dubrovnik, most Dr. Franja Tudmana](/assets/images/albanie/dubrovnik/most-dr-franjo-tudman.jpg)
+{% include image.html url="/assets/images/albanie/dubrovnik/most-dr-franjo-tudman.jpg" description="Dubrovnik, most Dr. Franja Tudmana" %}
 
-![Dubrovnik, most Dr. Franja Tudmana](/assets/images/albanie/dubrovnik/dubrovnik-most.jpg)
+{% include image.html url="/assets/images/albanie/dubrovnik/dubrovnik-most.jpg" description="Dubrovnik, most Dr. Franja Tudmana" %}
 
 V podvečer jsme se vydali na [vyhlídku](https://goo.gl/maps/mpEMqrMBZfdPkvjL9), kam se dá vyjet i lanovkou (my jeli autem). Je odtud nádherný výhled na město i široké okolí, rozhodně doporučuju.
 
-![Dubrovnik vidikovac, vyhlídka](/assets/images/albanie/dubrovnik/dubrovnik-vyhlidka.jpg)
+{% include image.html url="/assets/images/albanie/dubrovnik/dubrovnik-vyhlidka.jpg" description="Dubrovnik vidikovac, vyhlídka" %}
 
-![Dubrovnik vidikovac, vyhlídka](/assets/images/albanie/dubrovnik/dubrovnik-vyhlidka2.jpg)
+{% include image.html url="/assets/images/albanie/dubrovnik/dubrovnik-vyhlidka2.jpg" description="Dubrovnik vidikovac, vyhlídka" %}
 
 Načež následovala procházka městem. Ve městě je téměř nemožné najít parkování a je prý velmi drahé. Ideálně se tedy nechat odvézt a zase vyzvednout, využít taxi, příp. MHD. Do města jsme vcházeli se setměním a stále se valily proudy lidí. Ani si nedokážu představit, jak to vypadá přes den - 40 °C a ještě více lidí (do Dubrovniku jezdí výletní lodě, které ve městě kotví jen pár hodin a to právě přes den, kdy mají pasažéři možnost si projít město). Jinak pivo 5 Euro, cappuccino také 5 Euro a jídlo jsem nekoukala.
 
-![Dubrovnik, vstup do města](/assets/images/albanie/dubrovnik/dubrovnik-vstup.jpg)
+{% include image.html url="/assets/images/albanie/dubrovnik/dubrovnik-vstup.jpg" description="Dubrovnik, vstup do města" %}
 
 ## Albánie
 
@@ -79,9 +79,9 @@ V Sarandě jsme trénovali albánský provoz. Auta parkují všude, řidiči rá
 
 Jinak se jedná o letovisko na jihu země na albánské riviéře. Na jedné straně moře a výhled až na Korfu, na druhé straně hory. Co nás tam trochu iritovalo byly odpadky - ve městě ztěží najdete odpadkový koš a podle toho to také vypadá. O ulicích mimo hlavní turistické tahy ani nemluvím, tam se snad ani nikdo neobtěžuje odpadky odklízet.
 
-![Saranda](/assets/images/albanie/saranda/saranda.jpg)
+{% include image.html url="/assets/images/albanie/saranda/saranda.jpg" description="Saranda" %}
 
-![Saranda](/assets/images/albanie/saranda/saranda2.jpg)
+{% include image.html url="/assets/images/albanie/saranda/saranda2.jpg" description="Saranda" %}
 
 #### Bistrica Beach
 
