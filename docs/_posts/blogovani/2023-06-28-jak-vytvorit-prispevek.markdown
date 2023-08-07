@@ -19,7 +19,7 @@ Příspěvky se v Jekyllu píšou ve značkovacím jazyku *Markdown*. Nelekejte 
 
 Důležité je zmínit, že váš text musí být psán v souboru s pevně daným názvem, aby ho Jekyll rozpoznal a přetvořil v příspěvek na blogu. Soubor pak musí být uložen ve složce *_posts*.
 
-Název soubouru musí mít následující formát:
+Název souboru musí mít následující formát:
 
 {% highlight console %}
 ROK-MESIC-DEN-nazev-prispevku.markdown
