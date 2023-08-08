@@ -7,6 +7,7 @@ category: Blogování
 read_time: 1 min 59 s
 description: Úvod do blogování s Jekyllem. Druhý díl blogování zdarma. Základní konfigurace Jekyll blogu.
 excerpt: Úvod do blogování s Jekyllem. Druhý díl blogování zdarma. Základní konfigurace Jekyll blogu.
+permalink: blogovani/zakladni-konfigurace-blogu
 ---
 
 [Předchozí]({% post_url blogovani/2023-06-24-jak-zalozit-blog %})

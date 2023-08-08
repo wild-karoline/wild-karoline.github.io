@@ -7,6 +7,7 @@ category: Programovací jazyk C
 read_time: 6 min 6 s
 description: Rozbor zdrojového kódu v jazyce C. Komentáře, printf, main, příkazy pro preprocesor, whitespaces. Proměnné, datové typy, modifier. Pravdivostní hodnoty.
 excerpt: Rozbor zdrojového kódu v jazyce C. Komentáře, printf, main, příkazy pro preprocesor, whitespaces. Proměnné, datové typy, modifier. Pravdivostní hodnoty.
+permalink: programovaci-jazyk-c/prvni-program-datove-typy-a-printf
 ---
 
 [Předchozí]({% post_url c/2023-07-05-uvod-do-programovani-v-jazyce-c %})

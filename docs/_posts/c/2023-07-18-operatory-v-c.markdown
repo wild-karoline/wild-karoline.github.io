@@ -6,6 +6,7 @@ last_modified_at: 2023-07-18 15:30:00 +0200
 category: Programovací jazyk C
 read_time: 3 min 44 s
 description: Aritmetické a logické operátory v programovacím jazyce C.
+permalink: programovaci-jazyk-c/operatory-v-c
 ---
 
 [Předchozí]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %})

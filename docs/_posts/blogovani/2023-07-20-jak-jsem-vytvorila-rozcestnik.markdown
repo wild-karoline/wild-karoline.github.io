@@ -7,6 +7,7 @@ category: Blogování
 read_time: 4 min 47 s
 description: Návod, jak vytvořit na Jekyll blogu stránku s výčtem kategorií a jim přiřazených článků.
 excerpt: Návod, jak vytvořit na Jekyll blogu stránku s výčtem kategorií a jim přiřazených článků.
+permalink: blogovani/jak-jsem-vytvorila-rozcestnik
 ---
 
 [Předchozí]({% post_url blogovani/2023-07-18-prispevek-se-nezobrazuje %})

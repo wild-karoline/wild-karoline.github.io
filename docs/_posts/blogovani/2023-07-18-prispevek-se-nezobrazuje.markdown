@@ -7,6 +7,7 @@ category: Blogování
 read_time: 0 min 50 s
 description: Úvod do blogování s Jekyllem. Možné řešení problému s příspěvkem, který se nezobrazuje na blogu.
 excerpt: Úvod do blogování s Jekyllem. Možné řešení problému s příspěvkem, který se nezobrazuje na blogu.
+permalink: blogovani/prispevek-se-nezobrazuje
 ---
 
 [Předchozí]({% post_url blogovani/2023-06-29-jak-zverejnit-blog %})

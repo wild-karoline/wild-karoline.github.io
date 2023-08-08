@@ -7,6 +7,7 @@ category: Blogování
 read_time: 2 min 32 s
 description: Úvod do blogování s Jekyllem. Spuštění blogu na GitHub Pages (stále vše zdarma).
 excerpt: Úvod do blogování s Jekyllem. Spuštění blogu na GitHub Pages (stále vše zdarma).
+permalink: blogovani/jak-zverejnit-blog
 ---
 
 [Předchozí]({% post_url blogovani/2023-06-28-jak-vytvorit-prispevek %})

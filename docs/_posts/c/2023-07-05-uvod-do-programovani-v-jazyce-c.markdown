@@ -7,6 +7,7 @@ category: Programovací jazyk C
 read_time: 3 min 6 s
 description: V prvním díle mého úvodu do programování v jazyce C si ukážeme příkazový řádek, nainstalujeme WSL a přeložíme a spustíme první C program.
 excerpt: V prvním díle mého úvodu do programování v jazyce C si ukážeme příkazový řádek, nainstalujeme WSL a přeložíme a spustíme první C program.
+permalink: programovaci-jazyk-c/uvod-do-programovani-v-jazyce-c
 ---
 
 Na úvod si vyjasněme pár pojmů, informací a funkcí.

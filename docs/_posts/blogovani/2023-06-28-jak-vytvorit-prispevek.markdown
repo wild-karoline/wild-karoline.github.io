@@ -7,6 +7,7 @@ category: Blogování
 read_time: 1 min 41 s
 description: Úvod do blogování s Jekyllem. Třetí díl blogování zdarma, vytvoření příspěvku.
 excerpt: Úvod do blogování s Jekyllem. Třetí díl blogování zdarma, vytvoření příspěvku.
+permalink: blogovani/jak-vytvorit-prispevek-na-blog
 ---
 
 [Předchozí]({% post_url blogovani/2023-06-26-zakladni-konfigurace-blogu %})
