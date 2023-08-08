@@ -2,7 +2,7 @@
 layout: post
 title:  "Jak založit blog"
 date:   2023-06-24 09:07:00 +0200
-last_modified_at: 2023-07-11 08:30:00 +0200
+last_modified_at: 2023-08-07 09:30:00 +0200
 category: Blogování
 read_time: 1 min 7 s
 description: Úvod do blogování s Jekyllem. Ukážu vám, jak si můžete zdarma založit a spustit blog. První díl se věnuje instalaci.
