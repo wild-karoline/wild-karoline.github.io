@@ -7,6 +7,7 @@ category: Nezařazené
 read_time: 10 min 2 s
 description: Popis mé dovolené v Albánii. Jelo se autem přes Chorvatsko a Černou Horu až do Sarandy, odtud pak přes Himare a Vloru zase zpátky domů.
 excerpt: Popis mé dovolené v Albánii. Jelo se autem přes Chorvatsko a Černou Horu až do Sarandy, odtud pak přes Himare a Vloru zase zpátky domů.
+permalink: nezarazene/dovolena-v-albanii
 ---
 
 Právě jsem se vrátila z dovolené v Albánii. Jedním slovem prostě nádhera! Jeli jsme přes Chorvatsko a Černou Horu (start v Grazu), už cesta byla úchvatná - oblast od města Petrovac na Moru po Kotorský záliv prostě vzala dech, stejně tak albánské hory, kterými jsme projížděli cestou dolů.
