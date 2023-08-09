@@ -9,7 +9,7 @@ description: Opakování probraného - datové typy, operátory, ASCII tabulka. 
 permalink: programovaci-jazyk-c/opakovani-datove-typy-operatory-ascii
 ---
 
-[Předchozí]({% post_url c/2023-07-18-operatory-v-c %})
+[Předchozí [Operátory v C]]({% post_url c/2023-07-18-operatory-v-c %})
 
 Tak se po delší době zase hlásím! A začnu hned opakováním a pár příklady, ať je jistota, že vše pasuje a sedí 😉.
 

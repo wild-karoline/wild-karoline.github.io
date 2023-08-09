@@ -10,7 +10,7 @@ excerpt: Rozbor zdrojového kódu v jazyce C. Komentáře, printf, main, příka
 permalink: programovaci-jazyk-c/prvni-program-datove-typy-a-printf
 ---
 
-[Předchozí]({% post_url c/2023-07-05-uvod-do-programovani-v-jazyce-c %})
+[Předchozí [Úvod do programování v jazyce C]]({% post_url c/2023-07-05-uvod-do-programovani-v-jazyce-c %})
 
 V minulém díle jsme si ukázali nástroje, které budeme k programování využívat a napsali, zkompilovali a spustili první program. Nyní vám povím ještě něco málo k teorii, stavbě takového programu a dáme si lehký úvod do datových typů.
 

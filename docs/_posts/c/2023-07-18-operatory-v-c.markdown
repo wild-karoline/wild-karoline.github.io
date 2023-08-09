@@ -9,7 +9,7 @@ description: Aritmetické a logické operátory v programovacím jazyce C.
 permalink: programovaci-jazyk-c/operatory-v-c
 ---
 
-[Předchozí]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %})
+[Předchozí [První program, datové typy a printf]]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %})
 
 Již jsme si pověděli, že proměnné jsou místa v paměti, která uchovávají jistou hodnotu. S touto hodnotou je pak možné dále pracovat, přičemž nám k tomu C nabízí různé tzv. operátory, které pracují na jedné nebo více proměnných.
 
