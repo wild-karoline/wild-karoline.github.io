@@ -2,7 +2,7 @@
 layout: post
 title:  "Operátory v C"
 date:   2023-07-18 08:30:00 +0200
-last_modified_at: 2023-07-18 15:30:00 +0200
+last_modified_at: 2023-08-09 12:30:00 +0200
 category: Programovací jazyk C
 read_time: 3 min 44 s
 description: Aritmetické a logické operátory v programovacím jazyce C.
@@ -173,6 +173,4 @@ V proměnné *amount_ok* bychom v takovémto případě uložili informaci, zda 
 
 ## Kam dál?
 
-*\-TBD\-*
-
-**Pozor, jsem na dovolené. Nedokážu tedy zatím říct, co bude následovat, ani kdy to bude zveřejněné.**
+[Opakování - datové typy, operátory, ASCII]({% post_url c/2023-08-09-opakovani-datove-typy-operatory-ascii %})
