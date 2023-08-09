@@ -83,7 +83,7 @@ clang -Wall -Wextra -pedantic -o ex1 ex1.c {% endhighlight %}
 
 ASCII tabulku jsem krátce zmínila ve druhém díle ([První program, datové typy a printf]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %})). Tabulku tvoří tisknutelné a netisknutelné znaky a jejich ekvivalent v číselné podobě (desítkové, šestnáctkové a osmičkové soustavě) a jejich HTML znak.
 
-{% include image.html url="/assets/images/c/asciifull.gif" description="ASCII tabulka, převzato z [https://www.asciitable.com/](https://www.asciitable.com/){:target="_blank"}" %}
+{% include image.html url="/assets/images/c/asciifull.jpg" description="ASCII tabulka, převzato z https://www.asciitable.com/" %}
 
 Červeně jsem označila znaky, které nejsou tisknutelné. Schválně si zkuste přeložit a spustit následující kód, případně můj znak nahraďte jiným a koukněte, co se stane (tip: zapněte si zvuky u PC).
 
