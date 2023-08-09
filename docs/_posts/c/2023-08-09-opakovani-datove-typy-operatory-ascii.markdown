@@ -29,6 +29,8 @@ int main(void) {
 }
 {% endhighlight %}
 
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex1a.c))
+
 <!--- Example 1a solution -->
 
 <details>
@@ -58,6 +60,9 @@ int main(void) {
   printf("Výsledek: %.2f\n", x);
   return 0;
 } {% endhighlight %}
+
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím <a href="https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex1b.c">odkazem</a>)
+<br /><br />
 
     Stačí, aby jeden z operandů byl desetinným číslem, aby byl i výsledek desetinným číslem!
 
@@ -92,6 +97,8 @@ int main(void) {
   return 0;
 } {% endhighlight %}
 
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex2.c))
+
 Věnujte chvíli pozornost tzv. *format specifier*, který udává, jak má program zpracovat výstup proměnné udané na místě dalších parametrů (prvním parametrem je náš textový řetězec, který může obsahovat takováto rezervovaná místa, která jsou následně ve výstupu nahrazena tím, co následuje za textovým řetězcem). V kódu výše udává %c, že bude (měl by) následovat tzv. *character*, *char*, tedy jednotlivý znak.
 
 <!--- Example 2 solution -->
@@ -101,7 +108,8 @@ Věnujte chvíli pozornost tzv. *format specifier*, který udává, jak má prog
     <br />
 Znak s číslem 7 je podle ASCII tabulky *bell*, neboli zvukový signál. Na konzoli se nám tedy zobrazí pouze text <em>Netisknutelný znak </em>, ale měl by být slyšet zvukový signál.
 
-Pokud byste v řetězci udali, že má být výstupem číslo, např. pomocí format specifieru %d, pak by nenásledoval žádný zvukový signál, ale na konzoli byste měli vidět text <em>Netisknutelný znak 7</em>. Vyzkoušejte si to! <!--- Example 2b -->
+Pokud byste v řetězci udali, že má být výstupem číslo, např. pomocí format specifieru %d, pak by nenásledoval žádný zvukový signál, ale na konzoli byste měli vidět text <em>Netisknutelný znak 7</em>. Vyzkoušejte si to! <!--- Example 2b --> (Kód je jako vždy k nalezení i na GitHubu a to pod následujícím <a href="https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex2b.c">odkazem</a>)
+<br /><br />
   </details>
 <br />
 
@@ -124,6 +132,8 @@ int main(void)
 
   return 0;
 } {% endhighlight %}
+
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex3.c))
 
 <!--- Example 3 solution -->
 
@@ -174,12 +184,13 @@ int main(void)
   printf("%d\n", a % b);
   printf("%d\n", a += b);
   printf("%d\n", a /= b);
-  printf("%d\n", a *= b);
 
   printf("\na = %d, b = %d\n", a, b);
 
   return 0;
 } {% endhighlight %}
+
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex4.c))
 
 <!--- Example 4 solution -->
 
@@ -224,6 +235,8 @@ int main(void) {
   printf("%d\n", c);
 } {% endhighlight %}
 
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex5.c))
+
 <!--- Example 5 solution -->
 
   <details>
@@ -253,6 +266,8 @@ int main(void) {
   return 0;
 } {% endhighlight %}
 
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex6.c))
+
 <!--- Example 6 solution -->
 
   <details>
@@ -278,6 +293,8 @@ int main(void) {
   printf("%d\n", c);
   return 0;
 } {% endhighlight %}
+
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex7.c))
 
 <!--- Example 7 solution -->
 
@@ -308,6 +325,8 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex8.c))
+
 <!--- Example 8 solution -->
 
   <details>
@@ -335,6 +354,8 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex9.c))
+
 <!--- Example 9 solution -->
 
   <details>
@@ -351,7 +372,7 @@ c = 2 {% endhighlight %}
 
 Již jsem zmínila nahoře, že je třeba dbát na možný rozsah jednotlivých datových typů. Téma již jsem načla i v [předposlední kapitole]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %}), kód je k nalezení na [GitHubu](https://github.com/wild-karoline/C/blob/main/02_prvni-program-datove-typy-a-printf/datatypes.c). Zkoušeli jste, co se stane, pokud povolený rozsah přesáhnete?
 
-<!--- Example 9 -->
+<!--- Example 10 -->
 
 {% highlight c %}
 #include <stdio.h>
@@ -370,7 +391,9 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
-<!--- Example 9 solution -->
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex10.c))
+
+<!--- Example 10 solution -->
 
   <details>
     <summary><u>Výsledek: </u></summary>
