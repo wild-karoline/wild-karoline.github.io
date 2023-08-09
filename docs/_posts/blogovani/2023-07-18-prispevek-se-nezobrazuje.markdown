@@ -10,7 +10,7 @@ excerpt: Úvod do blogování s Jekyllem. Možné řešení problému s přísp�
 permalink: blogovani/prispevek-se-nezobrazuje
 ---
 
-[Předchozí]({% post_url blogovani/2023-06-29-jak-zverejnit-blog %})
+[Předchozí [Jak  zveřejnit blog]]({% post_url blogovani/2023-06-29-jak-zverejnit-blog %})
 
 Nedávno jsem narazila na následující problém. Sepsala a vytvořila jsem příspěvek, vše nahrála na GitHub, počkala až se stránka aktualizuje... a nic. Příspěvek na blogu nebyl! Kontrola repository (místa, kde na GitHubu mám kód k blogu), vše v pořádku. *bundle exec jekyl serve*, taky nic. Tak pokud se někdy setkáte se stejným problém, zde několik možných důvodů pro nezobrazující se příspěvek:
 

@@ -10,7 +10,7 @@ excerpt: Úvod do blogování s Jekyllem. Spuštění blogu na GitHub Pages (st�
 permalink: blogovani/jak-zverejnit-blog
 ---
 
-[Předchozí]({% post_url blogovani/2023-06-28-jak-vytvorit-prispevek %})
+[Předchozí [Jak  vytvořit příspěvek na blog]]({% post_url blogovani/2023-06-28-jak-vytvorit-prispevek %})
 
 ## ... aneb využití GitHub Pages
 

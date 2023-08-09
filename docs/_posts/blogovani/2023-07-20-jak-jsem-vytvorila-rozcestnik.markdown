@@ -10,7 +10,7 @@ excerpt: Návod, jak vytvořit na Jekyll blogu stránku s výčtem kategorií a 
 permalink: blogovani/jak-jsem-vytvorila-rozcestnik
 ---
 
-[Předchozí]({% post_url blogovani/2023-07-18-prispevek-se-nezobrazuje %})
+[Předchozí [Příspěvek se nezobrazuje?]]({% post_url blogovani/2023-07-18-prispevek-se-nezobrazuje %})
 
 Pokud jste si všimli, že na blogu mám vedle stránky "About" i stránku "Rozcestník" a zajímá vás, jak jsem ji vytvořila, jste tu správně. Rozcestník představuje výčet příspěvků seřazených podle kategorií. A protože nebudu po každém vytvořeném příspěvku upravovat i tuto stránku, vytvořila jsem si tzv. *layout*, který mi rozcestník plní automaticky.
 
@@ -132,5 +132,3 @@ Voilá, pokud vše klaplo, tak jak mělo, měl by se vám teď vedle stránky "A
 ## Kam dál?
 
 *\-TBD\-*
-
-**Pozor, jsem na dovolené. Nedokážu tedy zatím říct, co bude následovat, ani kdy to bude zveřejněné.**

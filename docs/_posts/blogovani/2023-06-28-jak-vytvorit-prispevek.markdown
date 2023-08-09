@@ -10,7 +10,7 @@ excerpt: Úvod do blogování s Jekyllem. Třetí díl blogování zdarma, vytvo
 permalink: blogovani/jak-vytvorit-prispevek-na-blog
 ---
 
-[Předchozí]({% post_url blogovani/2023-06-26-zakladni-konfigurace-blogu %})
+[Předchozí [Základní konfigurace blogu]]({% post_url blogovani/2023-06-26-zakladni-konfigurace-blogu %})
 
 Základní kostru blogu a jeho konfiguraci jsme si vytvořili v minulých dílech. Nyní se pojďme podívat na to, jak se s Jekyllem vytváří nové příspěvky.
 

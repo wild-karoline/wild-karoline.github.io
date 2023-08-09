@@ -10,7 +10,7 @@ excerpt: Úvod do blogování s Jekyllem. Druhý díl blogování zdarma. Zákla
 permalink: blogovani/zakladni-konfigurace-blogu
 ---
 
-[Předchozí]({% post_url blogovani/2023-06-24-jak-zalozit-blog %})
+[Předchozí [Jak založit blog]]({% post_url blogovani/2023-06-24-jak-zalozit-blog %})
 
 Pokud se Vám podařilo vše spustit tak, jak jsem popsala v posledním článku, měli byste mít stránku vypadající zhruba následovně:
 
