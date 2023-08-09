@@ -29,7 +29,7 @@ int main(void) {
 }
 {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex1a.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex1a.c){:target="_blank"})
 
 <!--- Example 1a solution -->
 
@@ -61,7 +61,7 @@ int main(void) {
   return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím <a href="https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex1b.c">odkazem</a>)
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím <a href="https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex1b.c" target="_blank">odkazem</a>)
 <br /><br />
 
     Stačí, aby jeden z operandů byl desetinným číslem, aby byl i výsledek desetinným číslem!
@@ -83,7 +83,7 @@ clang -Wall -Wextra -pedantic -o ex1 ex1.c {% endhighlight %}
 
 ASCII tabulku jsem krátce zmínila ve druhém díle ([První program, datové typy a printf]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %})). Tabulku tvoří tisknutelné a netisknutelné znaky a jejich ekvivalent v číselné podobě (desítkové, šestnáctkové a osmičkové soustavě) a jejich HTML znak.
 
-{% include image.html url="/assets/images/c/asciifull.gif" description="ASCII tabulka, převzato z [https://www.asciitable.com/](https://www.asciitable.com/)" %}
+{% include image.html url="/assets/images/c/asciifull.gif" description="ASCII tabulka, převzato z [https://www.asciitable.com/](https://www.asciitable.com/){:target="_blank"}" %}
 
 Červeně jsem označila znaky, které nejsou tisknutelné. Schválně si zkuste přeložit a spustit následující kód, případně můj znak nahraďte jiným a koukněte, co se stane (tip: zapněte si zvuky u PC).
 
@@ -97,7 +97,7 @@ int main(void) {
   return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex2.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex2.c){:target="_blank"})
 
 Věnujte chvíli pozornost tzv. *format specifier*, který udává, jak má program zpracovat výstup proměnné udané na místě dalších parametrů (prvním parametrem je náš textový řetězec, který může obsahovat takováto rezervovaná místa, která jsou následně ve výstupu nahrazena tím, co následuje za textovým řetězcem). V kódu výše udává %c, že bude (měl by) následovat tzv. *character*, *char*, tedy jednotlivý znak.
 
@@ -108,7 +108,7 @@ Věnujte chvíli pozornost tzv. *format specifier*, který udává, jak má prog
     <br />
 Znak s číslem 7 je podle ASCII tabulky *bell*, neboli zvukový signál. Na konzoli se nám tedy zobrazí pouze text <em>Netisknutelný znak </em>, ale měl by být slyšet zvukový signál.
 
-Pokud byste v řetězci udali, že má být výstupem číslo, např. pomocí format specifieru %d, pak by nenásledoval žádný zvukový signál, ale na konzoli byste měli vidět text <em>Netisknutelný znak 7</em>. Vyzkoušejte si to! <!--- Example 2b --> (Kód je jako vždy k nalezení i na GitHubu a to pod následujícím <a href="https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex2b.c">odkazem</a>)
+Pokud byste v řetězci udali, že má být výstupem číslo, např. pomocí format specifieru %d, pak by nenásledoval žádný zvukový signál, ale na konzoli byste měli vidět text <em>Netisknutelný znak 7</em>. Vyzkoušejte si to! <!--- Example 2b --> (Kód je jako vždy k nalezení i na GitHubu a to pod následujícím <a href="https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex2b.c" target="_blank">odkazem</a>)
 <br /><br />
   </details>
 <br />
@@ -133,7 +133,7 @@ int main(void)
   return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex3.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex3.c){:target="_blank"})
 
 <!--- Example 3 solution -->
 
@@ -190,7 +190,7 @@ int main(void)
   return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex4.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex4.c){:target="_blank"})
 
 <!--- Example 4 solution -->
 
@@ -235,7 +235,7 @@ int main(void) {
   printf("%d\n", c);
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex5.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex5.c){:target="_blank"})
 
 <!--- Example 5 solution -->
 
@@ -266,7 +266,7 @@ int main(void) {
   return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex6.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex6.c){:target="_blank"})
 
 <!--- Example 6 solution -->
 
@@ -294,7 +294,7 @@ int main(void) {
   return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex7.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex7.c){:target="_blank"})
 
 <!--- Example 7 solution -->
 
@@ -325,7 +325,7 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex8.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex8.c){:target="_blank"})
 
 <!--- Example 8 solution -->
 
@@ -354,7 +354,7 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex9.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex9.c){:target="_blank"})
 
 <!--- Example 9 solution -->
 
@@ -370,7 +370,7 @@ c = 2 {% endhighlight %}
 
 ### Overflow a underflow
 
-Již jsem zmínila nahoře, že je třeba dbát na možný rozsah jednotlivých datových typů. Téma již jsem načla i v [předposlední kapitole]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %}), kód je k nalezení na [GitHubu](https://github.com/wild-karoline/C/blob/main/02_prvni-program-datove-typy-a-printf/datatypes.c). Zkoušeli jste, co se stane, pokud povolený rozsah přesáhnete?
+Již jsem zmínila nahoře, že je třeba dbát na možný rozsah jednotlivých datových typů. Téma již jsem načla i v [předposlední kapitole]({% post_url c/2023-07-07-prvni-program-datove-typy-a-printf %}), kód je k nalezení na [GitHubu](https://github.com/wild-karoline/C/blob/main/02_prvni-program-datove-typy-a-printf/datatypes.c){:target="_blank"}. Zkoušeli jste, co se stane, pokud povolený rozsah přesáhnete?
 
 <!--- Example 10 -->
 
@@ -391,7 +391,7 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
-(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex10.c))
+(Kód je jako vždy k nalezení i na GitHubu a to pod následujícím [odkazem](https://github.com/wild-karoline/C/blob/main/04_opakovani-datove-typy-operatory-ascii/ex10.c){:target="_blank"})
 
 <!--- Example 10 solution -->
 
