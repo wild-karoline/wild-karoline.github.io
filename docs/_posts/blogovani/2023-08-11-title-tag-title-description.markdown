@@ -4,11 +4,13 @@ title:  "Title = title | description???"
 date:   2023-08-11 07:30:00 +0200
 last_modified_at: 2023-08-11 07:30:00 +0200
 category: Blogování
-read_time: 0 min 00 s
+read_time: 1 min 48 s
 description: Všimli jste si, že se na záložce v prohlížeči vedle titulku domovské stránky zobrazuje i její popis? Čtěte dál, pokud se chcete dozvědět, jak to upravit.
 excerpt: Návod, jak upravit meta tag title na domovské stránce. 
 permalink: blogovani/title-tag-title-description
 ---
+
+[Předchozí [Jak jsem vytvořila rozcestník]]({% post_url blogovani/2023-07-20-jak-jsem-vytvorila-rozcestnik %})
 
 Doufám, že dnešní titulek nezní až příliš španělsky. Zkusím situaci nejdřív trochu rozvést, než vám ukážu řešení.
 
@@ -31,3 +33,7 @@ A tady jsem začala hledat. Nejdříve jsem ve složce "_layouts" mrkla na soubo
 Dokumentace je psaná v angličtině (již jsem na začátku poukazovala na to, že to je běžný postup, aby byly informace dostupné většímu publiku). Ale ve zkratce u "description" stojí, že je součástí "title" tagu, pokud není definován titul stránky (page.title) nebo tagline celého webu (site.tagline). A to je případ domovské stránky, kde je definován jen site.title a site.description. Nabízí se tedy jednoduché řešení - přidat do _config.yml "tagline", neboli krátký popisek, který bude použit jako součást title tagu.
 
 Upravit, uložit, znovu spustit web (pro připomenutí *bundle exec jekyll serve*) - tradá! Funguje to.
+
+## Kam dál?
+
+*\-TBD\-*
