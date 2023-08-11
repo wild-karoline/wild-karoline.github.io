@@ -2,7 +2,7 @@
 layout: post
 title:  "Jak jsem vytvořila rozcestník"
 date:   2023-07-20 08:30:00 +0200
-last_modified_at: 2023-07-20 09:20:00 +0200
+last_modified_at: 2023-08-11 08:20:00 +0200
 category: Blogování
 read_time: 4 min 47 s
 description: Návod, jak vytvořit na Jekyll blogu stránku s výčtem kategorií a jim přiřazených článků.
@@ -131,4 +131,4 @@ Voilá, pokud vše klaplo, tak jak mělo, měl by se vám teď vedle stránky "A
 
 ## Kam dál?
 
-*\-TBD\-*
+[Title = title | description???]({% post_url blogovani/2023-08-11-title-tag-title-description %})
