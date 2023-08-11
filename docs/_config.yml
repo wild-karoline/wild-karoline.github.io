@@ -63,4 +63,4 @@ defaults:
   - scope:
       path: ""
     values:
-      image: assets/images/thumbnail.png
+      image: assets/images/favicon.png
