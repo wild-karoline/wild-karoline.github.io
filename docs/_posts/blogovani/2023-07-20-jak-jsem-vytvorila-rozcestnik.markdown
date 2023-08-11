@@ -82,7 +82,7 @@ Pro opravdu zvědavé ještě vysvětlení každého Liquid-řádku.
 {% endraw %}{% endhighlight %}
 
 - Vytvoření nadpisu třetí úrovně pro každou kategorii
-- Id tagu to, co se skrývá za proměnnou *category*; protože by id mělo být bez mezer, využila jsem možnost Liquidu *replace*, kde říkám, že chci vyměnit mezery za podtržítka
+- Id tagu je to, co se skrývá za proměnnou *category*; protože by id mělo být bez mezer, využila jsem možnost Liquidu *replace*, kde říkám, že chci vyměnit mezery za podtržítka
 - Mezi h3 tagy je onen nadpis, který se zobrazí na stránce; v mém případě tedy kategorie
 
 {% highlight html %}{% raw %}

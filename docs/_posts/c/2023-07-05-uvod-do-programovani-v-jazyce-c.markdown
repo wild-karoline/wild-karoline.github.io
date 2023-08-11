@@ -28,7 +28,7 @@ Po instalaci WSL a Linux distribuce Ubuntu 22.04 a zadání názvu účtu a hesl
 
 Text nyní zobrazený ve WSL je tzv. prompt. Na začátku stojí jméno uživatele, za zavináčem název stroje a na konci cesta ke složce, ve které se právě nacházíme.
 
-Komunikace v programování probíhá ve většině případů v angličtině. Rovněž kód, komentáře v něm obsažené, nebo dokumentace či další písemné náležitosti, by měli být psané v angličtině, aby informací mohli využít i jiní vývojáři (třeba i jinde na světě).
+Komunikace v programování probíhá ve většině případů v angličtině. Rovněž kód, komentáře v něm obsažené, nebo dokumentace či další písemné náležitosti, by měli být psané v angličtině, aby informací v nich obsažených mohli využít i jiní vývojáři (třeba i jinde na světě).
 
 Složce se v angličtině říká *folder*, nebo také *directory*.
 

@@ -25,7 +25,7 @@ float result = operand / 2;
 printf("%f\n", result);
 {% endhighlight %}
 
-Řešení přestavuje použití desetinného čísla na místě alespoň jednoho operandu. Následující úprava kódu ze shora ještě jednou zobrazí nesprávný výsledek a následně již výsledek takový, jaký bychom při dělení očekávali:
+Řešení představuje použití desetinného čísla na místě alespoň jednoho operandu. Následující úprava kódu ze shora ještě jednou zobrazí nesprávný výsledek a následně již výsledek takový, jaký bychom při dělení očekávali:
 
 {% highlight c %}
 int operand = 1;
