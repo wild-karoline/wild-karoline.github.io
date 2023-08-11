@@ -58,3 +58,9 @@ permalink: /:categories/:title:output_ext
 google_analytics: G-JXTBVZWM4Y
 lang: cs
 # show_excerpts: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/thumbnail.png
