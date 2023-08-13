@@ -75,6 +75,85 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
+### Switch case
+
+Switch nabízí další možnost zápisu na bázi if-podmínek. 
+
+Představte si následující situaci: Uživatel dostane na výběr ze 4 světových stran a vy pak na základě jeho volby budete nějak v programu pokračovat. Toto můžete buď vyřešit formou 4 samostatných if, případně složeného if-else výrazu. Anebo switch konstrukcí. Ale asi nejjednodušší bude si to ukázat na příkladu.
+
+Za pomocí námi známých if-else podmínek by program mohl vypadat následovně:
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void)
+{
+    // Ahoj uzivateli! Prosim zvol si jednu z nasledujicich moznosti:
+    //   1: Rovne
+    //   2: Leva
+    //   3: Prava
+    //   4: Zpet
+
+    int volba = 3;
+
+    if (volba == 1) 
+    {
+        printf("Pokracujes dal? OK!\n");
+    } else if (volba == 2)
+    {
+        printf("Hura doleva!\n");
+    } else if (volba == 3) 
+    {
+        printf("Prava je ta prava...\n");
+    } else if (volba == 4)
+    {
+        printf("Jak jen to bylo... 1 krok dopredu a 2 dozadu?\n");
+    } else 
+    {
+        printf("Nepodvadime! Vyber si jednu z nabizenych moznosti, jina neni.\n");
+    }
+
+    return 0;
+} {% endhighlight %}
+
+A takhle, když použijeme switch:
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void)
+{
+    // Ahoj uzivateli! Prosim zvol si jednu z nasledujicich moznosti:
+    //   1: Rovne
+    //   2: Leva
+    //   3: Prava
+    //   4: Zpet
+
+    int volba = 3;
+
+    switch (volba)
+    {
+        case 1: 
+            printf("Pokracujes dal? OK!\n");
+            break;
+        case 2:
+            printf("Hura doleva!\n");
+            break;
+        case 3:
+            printf("Prava je ta prava...\n");
+            break;
+        case 4: 
+            printf("Jak jen to bylo... 1 krok dopredu a 2 dozadu?\n");
+            break;
+        default:
+            printf("Nepodvadime! Vyber si jednu z nabizenych moznosti, jina neni.\n");
+    }
+
+    return 0;
+} {% endhighlight %}
+
+Do závorky za klíčové slovo *switch* jde proměnná, jejíž hodnota se bude posuzovat. Následují případy, neboli *case*. Pokud nastane případ, kdy proměnná *volba* bude rovna 1, pak nám program na konzoli vydá "Pokracujes dal? OK!", atd. Klíčové slovo *break* opouští switch. Schválně si zkuste smazat *break*, který je součástí třetího case-u a program znovu zkompilujte a spusťte. Vidíte rozdíl? Bez *break* program propadne do další větve, mluvíme o propadávacím switch case konstruktu. No a nakonec případ *default* - ten je jako poslední else větev o program výše. Nenastane-li žádný z uvedených případů, pak se provede jakýkoli příkaz, který je udaný v defaultním případu. Pokud by chyběl, nestalo by se v rámci switch větvení nic (pokud by zároveň nenastal žádný z uvedených případů). 
+
 ### Příklady
 
 <!-- Example 1 -->
