@@ -414,4 +414,4 @@ Snad je to takhle vše pochopitelné (a kdyby ne, klidně se mi ozvětě na [Dis
 
 ## Kam dál?
 
-*\-TBD\-*
+[Smyčky a podmínky]({% post_url c/2023-08-12-smycky-a-podminky %})
