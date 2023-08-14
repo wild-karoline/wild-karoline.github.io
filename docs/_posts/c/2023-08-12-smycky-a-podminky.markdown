@@ -4,7 +4,7 @@ title:  "Smyčky a podmínky v C"
 date:   2023-08-12 08:50:00 +0200
 last_modified_at: 2023-08-12 08:50:00 +0200
 category: Programovací jazyk C
-read_time: 6 min 11 s
+read_time: 7 min 47 s
 description: Dnešní díl vám představí smyčky a podmínky, větvení v C. Ukážeme si if a if-else struktury, while, do-while a for smyčky.
 permalink: programovaci-jazyk-c/smycky-a-podminky
 ---
@@ -152,7 +152,7 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-Do závorky za klíčové slovo *switch* jde proměnná, jejíž hodnota se bude posuzovat. Následují případy, neboli *case*. Pokud nastane případ, kdy proměnná *volba* bude rovna 1, pak nám program na konzoli vydá "Pokracujes dal? OK!", atd. Klíčové slovo *break* opouští switch. Schválně si zkuste smazat *break*, který je součástí třetího case-u a program znovu zkompilujte a spusťte. Vidíte rozdíl? Bez *break* program propadne do další větve, mluvíme o propadávacím switch case konstruktu. No a nakonec případ *default* - ten je jako poslední else větev o program výše. Nenastane-li žádný z uvedených případů, pak se provede jakýkoli příkaz, který je udaný v defaultním případu. Pokud by chyběl, nestalo by se v rámci switch větvení nic (pokud by zároveň nenastal žádný z uvedených případů). 
+Do závorky za klíčové slovo *switch* jde proměnná, jejíž hodnota se bude posuzovat. Následují případy, neboli *case*. Pokud nastane případ, kdy proměnná *volba* bude rovna 1, pak nám program na konzoli vydá "Pokracujes dal? OK!", atd. Klíčové slovo *break* opouští switch. Schválně si zkuste smazat *break*, který je součástí třetího case-u a program znovu zkompilujte a spusťte. Vidíte rozdíl? Bez *break* program propadne do další větve, mluvíme o propadávacím switch case konstruktu. No a nakonec případ *default* - ten je jako poslední else větev o program výše. Nenastane-li žádný z uvedených případů, pak se provede jakýkoli příkaz, který je udaný v defaultním případu. Pokud by chyběl, nestalo by se v rámci switch větvení nic (pokud by zároveň nenastal žádný z uvedených případů).
 
 ### Příklady
 
