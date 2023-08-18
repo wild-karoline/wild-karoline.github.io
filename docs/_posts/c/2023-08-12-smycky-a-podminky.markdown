@@ -530,7 +530,7 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
-Pokud se podivujete, proč není factorial inicializován stejně jako n na počátku for-cyklu, pak je to proto, že v programování existují jistá pravidla pro viditelnost proměnných, tzv. scope proměnných. Proměnné, které inicializujeme ve for-cyklu, jsou pouze v tomto cyklu použitelné. Pokud byste program napsali a zkompilovali následovně, dostali byste chybovou hlášku od compileru:
+Pokud se podivujete, proč není factorial inicializován stejně jako n na počátku for-cyklu, pak je to proto, že v programování existují jistá pravidla pro viditelnost proměnných, tzv. scope proměnných (detailněji k tomu možná někdy příště). Prozatím si pamatujte, že proměnné, které inicializujeme ve for-cyklu, jsou pouze v tomto cyklu použitelné. Pokud byste program napsali a zkompilovali následovně, dostali byste chybovou hlášku od compileru:
 
 {% highlight c %}
 #include <stdio.h>
