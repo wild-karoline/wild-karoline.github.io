@@ -36,3 +36,66 @@ comments: true
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<script>
+  const div = document.getElementsByClassName('post-content')[0];
+  const h2 = document.getElementsByTagName('h2');
+
+  const menu = document.createElement('div');
+  menu.id = 'menu';
+
+  const heading2 = document.getElementsByTagName('h2');
+
+  if (heading2.length > 0) {
+    const ul_h2 = document.createElement('ul');
+    menu.appendChild(ul_h2);
+    for (let i = 0; i < heading2.length; i++) {
+      const li = createLi(heading2[i]);
+      ul_h2.appendChild(li);
+
+      let temp = heading2[i];
+      while (temp.nextSibling != null && temp.nextSibling.tagName != 'H2') {
+        temp = temp.nextSibling;
+        if (temp.tagName == 'H3') {
+          let ul_h3 = createUl(li);
+          const li3 = createLi(temp);
+          ul_h3.appendChild(li3); 
+
+          let temp2 = temp;
+
+          while (temp2.nextSibling != null && temp2.nextSibling.tagName != 'H3') {
+            temp2 = temp2.nextSibling;
+            if (temp2.tagName == 'H4') {
+              let ul_h4 = createUl(li3);
+              ul_h4.appendChild(createLi(temp2));
+            }
+          } 
+        }
+      }
+    }
+  }
+
+  if (!(menu.children.length == 1 && menu.children[0].children.length == 1 )) {
+    div.insertBefore(menu, div.children[0]);
+  }
+
+  function createUl(where) {
+    let ul = null;
+    if (where.lastChild.tagName != 'ul') {
+      ul = document.createElement('ul');
+      where.appendChild(ul);
+    } else {
+      ul = where.lastChild;
+    }
+    return ul;
+  }
+
+  function createLi(heading) {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    li.appendChild(a);
+    a.setAttribute('href', '#' + heading.id);
+    a.textContent = heading.textContent;
+    return li;
+  }
+</script>
