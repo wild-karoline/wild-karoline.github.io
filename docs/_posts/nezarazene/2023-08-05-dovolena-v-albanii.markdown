@@ -8,6 +8,7 @@ read_time: 10 min 2 s
 description: Popis mé dovolené v Albánii. Jelo se autem přes Chorvatsko a Černou Horu až do Sarandy, odtud pak přes Himare a Vloru zase zpátky domů.
 excerpt: Popis mé dovolené v Albánii. Jelo se autem přes Chorvatsko a Černou Horu až do Sarandy, odtud pak přes Himare a Vloru zase zpátky domů.
 permalink: nezarazene/dovolena-v-albanii
+redirect_from: nezarazene
 ---
 
 Právě jsem se vrátila z dovolené v Albánii. Jedním slovem prostě nádhera! Jeli jsme přes Chorvatsko a Černou Horu (start v Grazu), už cesta byla úchvatná - oblast od města Petrovac na Moru po Kotorský záliv prostě vzala dech, stejně tak albánské hory, kterými jsme projížděli cestou dolů.
@@ -201,3 +202,9 @@ Staré město Budvy je malebná část s úzkými uličkami. Pláže tam byly ce
 {% include image.html url="/assets/images/albanie/budva/budva.jpg" description="Budva, pláž" %}
 
 {% include image.html url="/assets/images/albanie/budva/budva2.jpg" description="Budva" %}
+
+## Na co jsem cestou nedala dopustit
+
+Nejezdím na dovolenou vybavená ničím extra spešl. Co jsem ale objevila před pár lety a na co nedám dopustit, jsou ručníky z mikrovlákna. Fakt nemám ráda, když se od prvního koupání až do konce pobytu u vody můžu utírat jenom mokrým ručníkem. A co si budeme namlouvat - pokud nechcete táhnout tašku jako kr**a, tak víc jak jednu (froté) osušku mít nebudete. Za to ručníky z mikrovlákna pravidelně nosím 2-3 v kabelce, ať už se jdu koupat kamkoli 😆
+
+Já mám svoje teda z Hoferu, ale najdete je kromě sportovních, kamenných obchodů např. i na [Amazonu](https://amzn.to/44i2VrQ).
