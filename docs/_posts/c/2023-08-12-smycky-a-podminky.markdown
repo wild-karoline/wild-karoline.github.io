@@ -2,9 +2,9 @@
 layout: post
 title:  "Smyčky a podmínky v C"
 date:   2023-08-12 08:50:00 +0200
-last_modified_at: 2023-08-18 14:30:00 +0200
+last_modified_at: 2023-08-18 20:20:00 +0200
 category: Programovací jazyk C
-read_time: 7 min 47 s
+read_time: 12 min 30 s
 description: Dnešní díl vám představí smyčky a podmínky, větvení v C. Ukážeme si if a if-else struktury, while, do-while a for smyčky.
 permalink: programovaci-jazyk-c/smycky-a-podminky
 ---
@@ -379,5 +379,212 @@ int main(void)
 <br />
 
 ## Smyčky
+
+Po podmínkách se nyní vrhněme na smyčky. V Céčku používáme 3 typy smyček - while, do-while a for. V angličtině smyčku nazýváme loop. Hlavním rozdílem mezi těmito 3 smyčkami je ten, že do-while je vykonána alespoň jednou, protože podmínka stojí až na konci. Takže jakékoli příkazy stojí v bloku patřící k do-while budou alespoň jednou vykonány, než dojde ke kontrole, zda je vůbec splněna podmínka (a tedy budou vykonány i v případě, že podmínka není splněna). U ostatních je vždy nejdříve zkontrolována podmínka než se program vrhne na příkazy stojící v bloku pod podmínkou smyčky.
+
+### While loop
+
+While by se dalo přeložit jako "dokud". A přesně tak i funguje while-smyčka. Dokud je platná nějaká podmínka, bude vykonáváno cokoliv, co stojí v těle smyčky. A stejně jako u podmínek - následuje-li po řádku s while-podmínkou pouze 1 příkaz, není třeba složených závorek, ale má-li být v těle smyčky vykonáno vícero příkazů, je nutné je uzavřít do bloku právě složenými závorkami.
+
+Častou pastí u while-smyčky je tzv. nekonečná smyčka. K té dojde v případě, že podmínka nikdy nebude nepravdivá a tudíž program "do nekonečna" poběží v oné smyčce. Do nekonečna v uvozovkách proto, že program spíše dříve krachne, než aby vám fakt běžel už nafurt.
+
+Jak už jsem nahoře zmínila, smyčky mají společné vlastnosti a body. Ukážu vám na příkladě, že se dají použít na jeden a ten samý příklad všechny tři.
+
+V následujícím příkladu budeme počítat faktoriál čísla. Podle [Wikipedie](https://cs.wikipedia.org/wiki/Faktori%C3%A1l) je faktoriál čísla n roven součinu všech kladných čísel menších nebo rovných n. Tudíž např. faktoriál čisla 5 je 5! = 1 * 2 * 3 * 4 * 5 = 120.
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int n = 5;
+    int factorial = 1;
+
+    while (n > 0) {
+        factorial *= n;
+        n--;
+    }
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+    return 0;
+} {% endhighlight %}
+
+Jen tak pro zajímavost a vyhrání si, program by šlo napsat i následovně:
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int n = 5;
+    int factorial = 1;
+
+    while (n > 0) {
+        factorial *= n--;
+    }
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+    return 0;
+} {% endhighlight %}
+
+Případně i takto:
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int n = 0;
+    int factorial = 1;
+
+    while (++n <= 5) {
+        factorial *= n;
+    }
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+    return 0;
+} {% endhighlight %}
+
+Pro přehlednost (a čitelnost) doporučuji první variantu. Také se tím snázeji vyvarujete chyb. Např. tzv. off-by-one-error je něco, co se lehce může stát, hlavně v případě, že budete program psát tak, jako znázorňuje poslední příklad. Porovnejte s následujícím:
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int n = 0;
+    int factorial = 1;
+
+    while (n++ <= 5) {
+        factorial *= n;
+    }
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+    return 0;
+} {% endhighlight %}
+
+Proměnná použitá v podmínce, naše n (často se v programování setkáte s proměnnou nazvanou i, nebo třeba counter), je ke konci o 1 vyšší, než bysme vlastně chtěli! A tudíž i výsledek je špatně v tomto případě.
+
+### Do ... While
+
+Dalším typem smyčky je tzv. do ... while. Na rozdíl od while se program do bloku, těla smyčky dostane alespoň jedenkrát. Hodí se třeba v případě, že potřebujete zkontrolovat vstupy dodané zvenčí, od uživatelů - tak dlouho budete chtít input, dokud nebude v pořádku.
+
+Příklad s faktoriálem s použitím do-while smyčky by mohl vypadat následovně:
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int n = 5;
+    int factorial = 1;
+
+    do {
+        factorial *= n;
+        n--;
+    } while (n > 0);
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+
+    return 0;
+} {% endhighlight %}
+
+Všimněte si středníku za while. Pokud byste dali středník za while shora, pak by to bylo vyhodnoceno jako smyčka s prázdným tělem/blokem. Cokoli by stálo pod while by k němu už vlastně nepatřilo.
+
+I zde je možné program zkrátit a třeba i vynechat složené závork, pokud se blok mezi do a while skládá pouze z jediného příkazu.
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int n = 5;
+    int factorial = 1;
+
+    do 
+        factorial *= n;
+    while (--n);
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+
+    return 0;
+} {% endhighlight %}
+
+Vzpomeňte si, že v C je nepravda znázorněna číslem 0 a pravda jakýmkoli jiným číslem. Podmínka ve while je tedy nepravdivá (a smyčka tím pádem ukončená) ve chvíli, kdy se číslo n rovná 0.
+
+### For loop
+
+{% include image.html url="/assets/images/c/for.jpg" description="Syntaxe cyklu for" %}
+
+Syntaxe cyklu for je znázorněna na obrázku výše. Skládá se z proměnné/proměnných, které jsou nějakým způsobem inicializovány, následuje podmínka (jako u while) a nakonec krok nebo příkaz. Init-část je provedena před prvním cyklem, část s podmínkou na začátku každého cyklu a krok na konci každého cyklu. Celé bychom to mohli přepsat do while-cyklu, který by vypadal nějak následovně:
+
+{% include image.html url="/assets/images/c/while.jpg" description="Syntaxe while-cyklu odpovídající cyklu for výše" %}
+
+Náš příklad s faktoriálem přepsaný do podoby for-cyklu bude vypadat takto:
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int factorial = 1;
+    for (int n = 5; n > 0; n--) {
+        factorial *= n;
+    }
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+
+    return 0;
+} {% endhighlight %}
+
+Pokud se podivujete, proč není factorial inicializován stejně jako n na počátku for-cyklu, pak je to proto, že v programování existují jistá pravidla pro viditelnost proměnných, tzv. scope proměnných. Proměnné, které inicializujeme ve for-cyklu, jsou pouze v tomto cyklu použitelné. Pokud byste program napsali a zkompilovali následovně, dostali byste chybovou hlášku od compileru:
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    for (int n = 5, factorial = 1; n > 0; n--) {
+        factorial *= n;
+    }
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+
+    return 0;
+} {% endhighlight %}
+
+Pro úplnost ještě pár příkladů nehezky psaných cyklů (i když funkčních). Ale posuďte sami.
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int factorial = 1;
+    for (int n = 6; --n > 0; ) {
+        factorial *= n;
+    }
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+
+    return 0;
+} {% endhighlight %}
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int factorial = 1;
+    int n = 6;
+    
+    for ( ; --n; factorial *= n);
+
+    printf("Faktorial cisla 5 je %d\n", factorial);
+
+    return 0;
+} {% endhighlight %}
+
+Zajímavost na konec - víte, proč je za for-cyklem v příkladu výše středník i přesto, že jsem na začátku psala, že se středník píše jenom za do-while cyklem? 
+
+  <details>
+    <summary><u>Proč je na konci for-cyklu středník?</u></summary>
+    <br />
+Pokud jste si prográmek upravidli a zkompilovali bez středníku, všimli jste si, že vám na konzoli vyjede několikrát text z printf. A to proto, že při překladu programu kompilátor ignoruje prázdné řádky a do těla, bloku cyklu zabalí jakýkoli vykonatelný příkaz, který následuje (pouze tento 1, protože za smyčkou nejsou žádné složené závorky, které by nám udávali hranice většího bloku).
+<br /><br />
+  </details>
+<br />
+
+## Kam dál?
 
 *\-TBD\-*
