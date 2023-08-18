@@ -2,11 +2,11 @@
 layout: post
 title:  "Základní konfigurace blogu"
 date:   2023-06-26 21:03:00 +0200
-last_modified_at: 2023-08-18 14:00:00 +0200
+last_modified_at: 2023-08-18 19:00:00 +0200
 category: Blogování
 read_time: 1 min 59 s
-description: Úvod do blogování s Jekyllem. Druhý díl blogování zdarma. Základní konfigurace Jekyll blogu.
-excerpt: Úvod do blogování s Jekyllem. Druhý díl blogování zdarma. Základní konfigurace Jekyll blogu.
+description: Úvod do blogování s Jekyllem. Druhý díl blogování zdarma. Základní konfigurace Jekyll blogu, nastavení názvu, popisu, kontaktních údajů a dalších.
+excerpt: Úvod do blogování s Jekyllem. Druhý díl blogování zdarma. Základní konfigurace Jekyll blogu, nastavení názvu, popisu, kontaktních údajů a dalších.
 permalink: blogovani/zakladni-konfigurace-blogu
 ---
 
