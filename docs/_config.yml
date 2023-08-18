@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wild-karoline.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wild-karoline
 discord_server: wild's server
+disqus:
+  shortname: wild-karoline
 
 # Build settings
 theme: minima
