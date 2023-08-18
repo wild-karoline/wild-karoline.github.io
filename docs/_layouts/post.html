@@ -50,7 +50,7 @@ comments: true
     const ul_h2 = document.createElement('ul');
     menu.appendChild(ul_h2);
     for (let i = 0; i < heading2.length; i++) {
-      const li = createLi(heading2[i]);
+      let li = createLi(heading2[i]);
       ul_h2.appendChild(li);
 
       let temp = heading2[i];
@@ -62,7 +62,6 @@ comments: true
           ul_h3.appendChild(li3); 
 
           let temp2 = temp;
-
           while (temp2.nextSibling != null && temp2.nextSibling.tagName != 'H3') {
             temp2 = temp2.nextSibling;
             if (temp2.tagName == 'H4') {
@@ -76,7 +75,7 @@ comments: true
   }
 
   if (!(menu.children.length == 1 && menu.children[0].children.length == 1 )) {
-    div.insertBefore(menu, div.children[0]);
+    div.insertBefore(menu, div.children[1]);
   }
 
   function createUl(where) {

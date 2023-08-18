@@ -2,7 +2,7 @@
 layout: post
 title:  "Dovolená v Albánii"
 date:   2023-08-05 08:30:00 +0200
-last_modified_at: 2023-08-07 09:00:00 +0200
+last_modified_at: 2023-08-18 14:00:00 +0200
 category: Nezařazené
 read_time: 10 min 2 s
 description: Popis mé dovolené v Albánii. Jelo se autem přes Chorvatsko a Černou Horu až do Sarandy, odtud pak přes Himare a Vloru zase zpátky domů.

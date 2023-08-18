@@ -2,7 +2,7 @@
 layout: post
 title:  "Jak  zveřejnit blog"
 date:   2023-06-29 19:00:00 +0200
-last_modified_at: 2023-08-07 09:30:00 +0200
+last_modified_at: 2023-08-18 14:00:00 +0200
 category: Blogování
 read_time: 2 min 32 s
 description: Úvod do blogování s Jekyllem. Spuštění blogu na GitHub Pages (stále vše zdarma).

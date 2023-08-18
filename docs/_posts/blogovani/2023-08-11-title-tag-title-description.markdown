@@ -2,7 +2,7 @@
 layout: post
 title:  "Title = title | description???"
 date:   2023-08-11 07:30:00 +0200
-last_modified_at: 2023-08-11 07:30:00 +0200
+last_modified_at: 2023-08-18 14:00:00 +0200
 category: Blogování
 read_time: 1 min 48 s
 description: Všimli jste si, že se na záložce v prohlížeči vedle titulku domovské stránky zobrazuje i její popis? Čtěte dál, pokud se chcete dozvědět, jak to upravit.

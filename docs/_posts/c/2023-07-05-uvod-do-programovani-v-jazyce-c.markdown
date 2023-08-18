@@ -2,7 +2,7 @@
 layout: post
 title:  "Úvod do programování v jazyce C"
 date:   2023-07-05 10:20:00 +0200
-last_modified_at: 2023-07-11 08:30:00 +0200
+last_modified_at: 2023-08-18 14:00:00 +0200
 category: Programovací jazyk C
 read_time: 3 min 6 s
 description: V prvním díle mého úvodu do programování v jazyce C si ukážeme příkazový řádek, nainstalujeme WSL a přeložíme a spustíme první C program.

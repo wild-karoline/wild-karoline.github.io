@@ -2,7 +2,7 @@
 layout: post
 title:  "První program, datové typy a printf"
 date:   2023-07-07 12:30:00 +0200
-last_modified_at: 2023-07-07 17:00:00 +0200
+last_modified_at: 2023-08-18 14:00:00 +0200
 category: Programovací jazyk C
 read_time: 6 min 6 s
 description: Rozbor zdrojového kódu v jazyce C. Komentáře, printf, main, příkazy pro preprocesor, whitespaces. Proměnné, datové typy, modifier. Pravdivostní hodnoty.

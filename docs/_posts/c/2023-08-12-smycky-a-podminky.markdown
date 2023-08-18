@@ -2,7 +2,7 @@
 layout: post
 title:  "Smyčky a podmínky v C"
 date:   2023-08-12 08:50:00 +0200
-last_modified_at: 2023-08-12 08:50:00 +0200
+last_modified_at: 2023-08-18 14:00:00 +0200
 category: Programovací jazyk C
 read_time: 7 min 47 s
 description: Dnešní díl vám představí smyčky a podmínky, větvení v C. Ukážeme si if a if-else struktury, while, do-while a for smyčky.

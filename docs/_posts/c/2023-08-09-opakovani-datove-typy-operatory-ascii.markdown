@@ -2,7 +2,7 @@
 layout: post
 title:  "Opakování - datové typy, operátory, ASCII"
 date:   2023-08-09 09:10:00 +0200
-last_modified_at: 2023-08-09 13:00:00 +0200
+last_modified_at: 2023-08-18 14:00:00 +0200
 category: Programovací jazyk C
 read_time: 6 min 22 s
 description: Opakování probraného - datové typy, operátory, ASCII tabulka. Pár příkladu k tématům.
