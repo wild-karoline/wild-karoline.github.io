@@ -2,9 +2,9 @@
 layout: post
 title:  "Smyčky a podmínky v C"
 date:   2023-08-12 08:50:00 +0200
-last_modified_at: 2023-08-18 20:20:00 +0200
+last_modified_at: 2023-08-19 10:10:00 +0200
 category: Programovací jazyk C
-read_time: 12 min 30 s
+read_time: 14 min 17 s
 description: Dnešní díl vám představí smyčky a podmínky, větvení v C. Ukážeme si if a if-else struktury, while, do-while a for smyčky.
 permalink: programovaci-jazyk-c/smycky-a-podminky
 ---
@@ -508,11 +508,11 @@ Vzpomeňte si, že v C je nepravda znázorněna číslem 0 a pravda jakýmkoli j
 
 ### For loop
 
-{% include image.html url="/assets/images/c/for.jpg" description="Syntaxe cyklu for" %}
+{% include image.html url="/assets/images/c/for.JPG" description="Syntaxe cyklu for" %}
 
 Syntaxe cyklu for je znázorněna na obrázku výše. Skládá se z proměnné/proměnných, které jsou nějakým způsobem inicializovány, následuje podmínka (jako u while) a nakonec krok nebo příkaz. Init-část je provedena před prvním cyklem, část s podmínkou na začátku každého cyklu a krok na konci každého cyklu. Celé bychom to mohli přepsat do while-cyklu, který by vypadal nějak následovně:
 
-{% include image.html url="/assets/images/c/while.jpg" description="Syntaxe while-cyklu odpovídající cyklu for výše" %}
+{% include image.html url="/assets/images/c/while.JPG" description="Syntaxe while-cyklu odpovídající cyklu for výše" %}
 
 Náš příklad s faktoriálem přepsaný do podoby for-cyklu bude vypadat takto:
 
@@ -584,6 +584,63 @@ Pokud jste si prográmek upravidli a zkompilovali bez středníku, všimli jste 
 <br /><br />
   </details>
 <br />
+
+### Break a continue
+
+Break a continue představují klíčová slovíčka využitelná pro manipulaci cyklů. Break cyklus opustí a program bude pokračovat pod ním. Klíčovým slovem continue se přeruší pouze aktuální běh cyklu a program bude pokračovat dalším kolem.
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int number = 5;
+    int stop = 1;
+
+    while (1) {
+        if (number % 2 == 0) 
+            printf("Pong\n");
+        else 
+            printf("Ping\n");
+
+        number--;
+        if (number == stop) 
+            break;
+    }
+
+    return 0;
+} {% endhighlight %}
+
+Příklad výše znázorňuje tzv. nekonečný cyklus, endless loop. Všimněte si 1 v podmínce pro while. A jak víme, jednička je pravda - takže tento cyklus teoreticky poběží pořád, protože 1 je prostě vždy pravdivá. Není tomu tak v našem případě, protože se z cyklu můžeme vymanit pomocí klíčového slova break. Program tedy nedělá nic jiného, než že vyhodí na konzoli "Ping", pokud je číslo liché, a "Pong", pokud je sudé. Jakmile se číslo dostane na určitou hodnotu (která je dána proměnnou "stop"), cyklus opuštíme.
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+    int stop = 1;
+    int number = 5;
+
+    printf("Licha cisla v internvalu [%d, %d] jsou: ", stop, number);
+    for ( ; number >= stop; number--) {
+        if (number % 2 == 0)
+            continue;
+        printf(" %d", number);
+    }
+    printf("\n");
+
+    return 0;
+} {% endhighlight %}
+
+Program výše ukazuje využití klíčového slovíčka continue. Program nemá za úkol nic jiného, než vytisknout všechna lichá čísla v určitém intervalu. Pokud je číslo sudé (zbytek po dělení 2 je 0), pak slovíčkem continue opouštíme nynější kolo a program skočí znovu na začátek for-cyklu. Ke klíčovému slovu continue se program nedostane, pokud je číslo liché, a pokračuje tedy pod podmínkou řádkem s příkazem printf. (Řešením by samozřejmě mohlo být i zabalení printf do podmínky na lichá čísla, ale pak byste neviděli využití continue.)
+
+Klíčová slova break a continue je možné použít jen v kombinaci s podmínkami a působí pouze na vnitřní cyklus (pokud jich je více v sobě). Měla by se používat pouze ve výjimečných případech.
+
+## Shrnutí cyklů
+
+Cykly by měly být formulovány tak, aby bylo na první pohled jasné odkud kam cyklus poběží a kdy program cyklus opustí.
+
+Do-while cyklus nachází využití tam, kde by měl zvolený cyklus alespoň jednou proběhnout. For cyklus pak tehdy, pokud máme k dispozici a chceme využít části "INIT" a "KROK" (viz obrázek výše v kapitole [For loop](https://wild-karoline.github.io/programovaci-jazyk-c/smycky-a-podminky#for-loop)). Pro všechny ostatní případy je možné použít while cyklus.
+
+Klíčová slovíčka break a continue ovlivňují přirozený běh cyklů a měli by se využívat jen vyjímečně.
 
 ## Kam dál?
 
