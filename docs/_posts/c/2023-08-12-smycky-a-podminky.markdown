@@ -55,6 +55,8 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/ternary0.c){:target="_blank"})
+
 Výsledek by byl stejný jako za použití if-else konstruktu:
 
 {% highlight c %}
@@ -74,6 +76,8 @@ int main(void)
 
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/ternary1.c){:target="_blank"})
 
 ### Switch case
 
@@ -116,6 +120,8 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/switch1.c){:target="_blank"})
+
 A takhle, když použijeme switch:
 
 {% highlight c %}
@@ -151,6 +157,8 @@ int main(void)
 
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/switch.c){:target="_blank"})
 
 Do závorky za klíčové slovo *switch* jde proměnná, jejíž hodnota se bude posuzovat. Hodnota musí být celočíselná. Následují případy, neboli *case*. Pokud nastane případ, kdy proměnná *volba* bude rovna 1, pak nám program na konzoli vydá "Pokracujes dal? OK!", atd. Klíčové slovo *break* opouští switch. Schválně si zkuste smazat *break*, který je součástí třetího case-u a program znovu zkompilujte a spusťte. Vidíte rozdíl? Bez *break* program propadne do další větve, mluvíme o propadávacím switch case konstruktu. No a nakonec případ *default* - ten je jako poslední else větev o program výše. Nenastane-li žádný z uvedených případů, pak se provede jakýkoli příkaz, který je udaný v defaultním případu. Pokud by chyběl, nestalo by se v rámci switch větvení nic (pokud by zároveň nenastal žádný z uvedených případů). Také si všimněte, že case nepotřebuje složené závorky pro svůj blok.
 
@@ -204,6 +212,8 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if1.c){:target="_blank"})
+
 Víte, co se stane, když program postavíte na samotných if? Tedy bez else? A co se stane, když vynecháte složené závorky mezi if-else? Do toho, vyzkoušejte si to, pokud si nejste jistí! 🙃
 </details>
 <br />
@@ -247,6 +257,8 @@ int main(void)
 
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if2.c){:target="_blank"})
 
 Oba příklady nedělají nic jiného, než že nejdříve zkontrolují, zda je číslo větší nebo rovno 0 a potom, zda je menší nebo rovno 10. To lze udělat buď za pomocí dvou if-podmínek, nebo spojením logickým AND operátorem (&&).
   </details>
@@ -298,6 +310,8 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-1.c){:target="_blank"})
+
 Program s použitím závorek na ohraničení bloku, bez vhodného odsazení:
 
 <br />
@@ -322,6 +336,8 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-2.c){:target="_blank"})
+
 Použití vhodného odsazení a složených závorek na ohraničení bloku, který náleží k if-podmínce:
 
 <br />
@@ -345,6 +361,8 @@ int main(void)
 
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-3.c){:target="_blank"})
 
 Sami posuďte, které řešení se vám zdá nejčitelnější a na první pohled srozumitelné.
 
@@ -374,6 +392,8 @@ int main(void)
 
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/ternary2.c){:target="_blank"})
 
   </details>
 <br />
@@ -408,6 +428,8 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/while.c){:target="_blank"})
+
 Jen tak pro zajímavost a vyhrání si, program by šlo napsat i následovně:
 
 {% highlight c %}
@@ -424,6 +446,8 @@ int main(void) {
     printf("Faktorial cisla 5 je %d\n", factorial);
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/while2.c){:target="_blank"})
 
 Případně i takto:
 
@@ -442,6 +466,8 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/while3.c){:target="_blank"})
+
 Pro přehlednost (a čitelnost) doporučuji první variantu. Také se tím snázeji vyvarujete chyb. Např. tzv. off-by-one-error je něco, co se lehce může stát, hlavně v případě, že budete program psát tak, jako znázorňuje poslední příklad. Porovnejte s následujícím:
 
 {% highlight c %}
@@ -458,6 +484,8 @@ int main(void) {
     printf("Faktorial cisla 5 je %d\n", factorial);
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/while4.c){:target="_blank"})
 
 Proměnná použitá v podmínce, naše n (často se v programování setkáte s proměnnou nazvanou i, nebo třeba counter), je ke konci o 1 vyšší, než bysme vlastně chtěli! A tudíž i výsledek je špatně v tomto případě.
 
@@ -484,6 +512,8 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/dowhile.c){:target="_blank"})
+
 Všimněte si středníku za while. Pokud byste dali středník za while shora, pak by to bylo vyhodnoceno jako smyčka s prázdným tělem/blokem. Cokoli by stálo pod while by k němu už vlastně nepatřilo.
 
 I zde je možné program zkrátit a třeba i vynechat složené závork, pokud se blok mezi do a while skládá pouze z jediného příkazu.
@@ -503,6 +533,8 @@ int main(void) {
 
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/dowhile2.c){:target="_blank"})
 
 Vzpomeňte si, že v C je nepravda znázorněna číslem 0 a pravda jakýmkoli jiným číslem. Podmínka ve while je tedy nepravdivá (a smyčka tím pádem ukončená) ve chvíli, kdy se číslo n rovná 0.
 
