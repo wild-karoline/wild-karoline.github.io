@@ -562,6 +562,8 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/for.c){:target="_blank"})
+
 Pokud se podivujete, proč není factorial inicializován stejně jako n na počátku for-cyklu, pak je to proto, že v programování existují jistá pravidla pro viditelnost proměnných, tzv. scope proměnných (detailněji k tomu možná někdy příště). Prozatím si pamatujte, že proměnné, které inicializujeme ve for-cyklu, jsou pouze v tomto cyklu použitelné. Pokud byste program napsali a zkompilovali následovně, dostali byste chybovou hlášku od compileru:
 
 {% highlight c %}
@@ -593,6 +595,8 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/for2.c){:target="_blank"})
+
 {% highlight c %}
 #include <stdio.h>
 
@@ -607,12 +611,14 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/for3.c){:target="_blank"})
+
 Zajímavost na konec - víte, proč je za for-cyklem v příkladu výše středník i přesto, že jsem na začátku psala, že se středník píše jenom za do-while cyklem? 
 
   <details>
     <summary><u>Proč je na konci for-cyklu středník?</u></summary>
     <br />
-Pokud jste si prográmek upravidli a zkompilovali bez středníku, všimli jste si, že vám na konzoli vyjede několikrát text z printf. A to proto, že při překladu programu kompilátor ignoruje prázdné řádky a do těla, bloku cyklu zabalí jakýkoli vykonatelný příkaz, který následuje (pouze tento 1, protože za smyčkou nejsou žádné složené závorky, které by nám udávali hranice většího bloku).
+Pokud jste si prográmek upravili a zkompilovali bez středníku, všimli jste si, že vám na konzoli vyjede několikrát text z printf. A to proto, že při překladu programu kompilátor ignoruje prázdné řádky a do těla, bloku cyklu zabalí jakýkoli vykonatelný příkaz, který následuje (pouze tento 1, protože za smyčkou nejsou žádné složené závorky, které by nám udávali hranice většího bloku).
 <br /><br />
   </details>
 <br />
@@ -642,6 +648,8 @@ int main(void) {
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/break.c){:target="_blank"})
+
 Příklad výše znázorňuje tzv. nekonečný cyklus, endless loop. Všimněte si 1 v podmínce pro while. A jak víme, jednička je pravda - takže tento cyklus teoreticky poběží pořád, protože 1 je prostě vždy pravdivá. Není tomu tak v našem případě, protože se z cyklu můžeme vymanit pomocí klíčového slova break. Program tedy nedělá nic jiného, než že vyhodí na konzoli "Ping", pokud je číslo liché, a "Pong", pokud je sudé. Jakmile se číslo dostane na určitou hodnotu (která je dána proměnnou "stop"), cyklus opuštíme.
 
 {% highlight c %}
@@ -661,6 +669,8 @@ int main(void) {
 
     return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/continue.c){:target="_blank"})
 
 Program výše ukazuje využití klíčového slovíčka continue. Program nemá za úkol nic jiného, než vytisknout všechna lichá čísla v určitém intervalu. Pokud je číslo sudé (zbytek po dělení 2 je 0), pak slovíčkem continue opouštíme nynější kolo a program skočí znovu na začátek for-cyklu. Ke klíčovému slovu continue se program nedostane, pokud je číslo liché, a pokračuje tedy pod podmínkou řádkem s příkazem printf. (Řešením by samozřejmě mohlo být i zabalení printf do podmínky na lichá čísla, ale pak byste neviděli využití continue.)
 
