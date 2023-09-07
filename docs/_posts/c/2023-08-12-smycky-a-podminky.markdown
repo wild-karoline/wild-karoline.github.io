@@ -2,7 +2,7 @@
 layout: post
 title:  "Smyčky a podmínky v C"
 date:   2023-08-12 08:50:00 +0200
-last_modified_at: 2023-08-19 10:10:00 +0200
+last_modified_at: 2023-09-07 20:00:00 +0200
 category: Programovací jazyk C
 read_time: 14 min 17 s
 description: Dnešní díl vám představí smyčky a podmínky, větvení v C. Ukážeme si if a if-else struktury, while, do-while a for smyčky.
@@ -685,5 +685,7 @@ Do-while cyklus nachází využití tam, kde by měl zvolený cyklus alespoň je
 Klíčová slovíčka break a continue ovlivňují přirozený běh cyklů a měli by se využívat jen vyjímečně.
 
 ## Kam dál?
+
+[scanf, aneb formátované načítání]({% post_url c/2023-09-07-scanf %})
 
 *\-TBD\-*
