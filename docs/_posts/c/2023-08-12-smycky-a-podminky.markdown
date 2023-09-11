@@ -11,7 +11,7 @@ permalink: programovaci-jazyk-c/smycky-a-podminky
 
 [Předchozí [Opakování - datové typy, operátory, ASCII]]({% post_url c/2023-08-09-opakovani-datove-typy-operatory-ascii %})
 
-Smyčky a podmínky nebo větvení patří v programování mezi tzv. řídící struktury, v AJ control flow statements. Nabízí nám možnost alternativních či opakujících se cest v řámci našeho programu.
+Smyčky a podmínky nebo větvení patří v programování mezi tzv. řídící struktury, v AJ control flow statements. Nabízí nám možnost alternativních či opakujících se cest v rámci našeho programu.
 
 ## Podmínky
 
@@ -212,7 +212,7 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if1.c){:target="_blank"})
+<a href="https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if1.c" target="_blank">(Odkaz na GitHub)</a>
 
 Víte, co se stane, když program postavíte na samotných if? Tedy bez else? A co se stane, když vynecháte složené závorky mezi if-else? Do toho, vyzkoušejte si to, pokud si nejste jistí! 🙃
 </details>
@@ -258,7 +258,7 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if2.c){:target="_blank"})
+<a href="https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if2.c" target="_blank">(Odkaz na GitHub)</a>
 
 Oba příklady nedělají nic jiného, než že nejdříve zkontrolují, zda je číslo větší nebo rovno 0 a potom, zda je menší nebo rovno 10. To lze udělat buď za pomocí dvou if-podmínek, nebo spojením logickým AND operátorem (&&).
   </details>
@@ -290,7 +290,7 @@ int main(void)
 <br />
 Hmm, výstup není takový, jaký se na první pohled zdá být. Tohle je příklad toho, jak se nemá používat odsazení a že je vhodné používat závorky na ohraničení bloků.
 
-Správně odsazený program by mohl vypaddat následovně (nehleďte přitom na to, že je nyní krásně vidět, že nedělá to, co by měl):
+Správně odsazený program by mohl vypadat následovně (nehleďte přitom na to, že je nyní krásně vidět, že nedělá to, co by měl):
 
 <br />
 <br />
@@ -310,7 +310,7 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-1.c){:target="_blank"})
+<a href="https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-1.c" target="_blank">(Odkaz na GitHub)</a>
 
 Program s použitím závorek na ohraničení bloku, bez vhodného odsazení:
 
@@ -336,7 +336,7 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-2.c){:target="_blank"})
+<a href="https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-2.c" target="_blank">(Odkaz na GitHub)</a>
 
 Použití vhodného odsazení a složených závorek na ohraničení bloku, který náleží k if-podmínce:
 
@@ -362,7 +362,7 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-3.c){:target="_blank"})
+<a href="https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if3-3.c" target="_blank">(Odkaz na GitHub)</a>
 
 Sami posuďte, které řešení se vám zdá nejčitelnější a na první pohled srozumitelné.
 
@@ -410,7 +410,7 @@ While by se dalo přeložit jako "dokud". A přesně tak i funguje while-smyčka
 
 Jak už jsem nahoře zmínila, smyčky mají společné vlastnosti a body. Ukážu vám na příkladě, že se dají použít na jeden a ten samý příklad všechny tři.
 
-V následujícím příkladu budeme počítat faktoriál čísla. Podle [Wikipedie](https://cs.wikipedia.org/wiki/Faktori%C3%A1l) je faktoriál čísla n roven součinu všech kladných čísel menších nebo rovných n. Tudíž např. faktoriál čisla 5 je 5! = 1 * 2 * 3 * 4 * 5 = 120.
+V následujícím příkladu budeme počítat faktoriál čísla. Podle [Wikipedie](https://cs.wikipedia.org/wiki/Faktori%C3%A1l) je faktoriál čísla n roven součinu všech kladných čísel menších nebo rovných n. Tudíž např. faktoriál čísla 5 je 5! = 1 * 2 * 3 * 4 * 5 = 120.
 
 {% highlight c %}
 #include <stdio.h>
@@ -516,7 +516,7 @@ int main(void) {
 
 Všimněte si středníku za while. Pokud byste dali středník za while shora, pak by to bylo vyhodnoceno jako smyčka s prázdným tělem/blokem. Cokoli by stálo pod while by k němu už vlastně nepatřilo.
 
-I zde je možné program zkrátit a třeba i vynechat složené závork, pokud se blok mezi do a while skládá pouze z jediného příkazu.
+I zde je možné program zkrátit a třeba i vynechat složené závorky, pokud se blok mezi do a while skládá pouze z jediného příkazu.
 
 {% highlight c %}
 #include <stdio.h>
@@ -650,7 +650,7 @@ int main(void) {
 
 ([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/break.c){:target="_blank"})
 
-Příklad výše znázorňuje tzv. nekonečný cyklus, endless loop. Všimněte si 1 v podmínce pro while. A jak víme, jednička je pravda - takže tento cyklus teoreticky poběží pořád, protože 1 je prostě vždy pravdivá. Není tomu tak v našem případě, protože se z cyklu můžeme vymanit pomocí klíčového slova break. Program tedy nedělá nic jiného, než že vyhodí na konzoli "Ping", pokud je číslo liché, a "Pong", pokud je sudé. Jakmile se číslo dostane na určitou hodnotu (která je dána proměnnou "stop"), cyklus opuštíme.
+Příklad výše znázorňuje tzv. nekonečný cyklus, endless loop. Všimněte si 1 v podmínce pro while. A jak víme, jednička je pravda - takže tento cyklus teoreticky poběží pořád, protože 1 je prostě vždy pravdivá. Není tomu tak v našem případě, protože se z cyklu můžeme vymanit pomocí klíčového slova break. Program tedy nedělá nic jiného, než že vyhodí na konzoli "Ping", pokud je číslo liché, a "Pong", pokud je sudé. Jakmile se číslo dostane na určitou hodnotu (která je dána proměnnou "stop"), cyklus opouštíme.
 
 {% highlight c %}
 #include <stdio.h>
