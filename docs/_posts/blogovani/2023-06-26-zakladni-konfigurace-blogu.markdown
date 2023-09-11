@@ -23,7 +23,7 @@ K tomu je potřeba úprav v souburu _config.yml, který Vám byl na začátku vy
 Pozor, jak je zmíněno i na úvodu config souboru, **je třeba vždy restartovat server pro zobrazení změn** provedených v tomto souboru!
 
 {% highlight console %}
-bungle exec jekyll serve
+bundle exec jekyll serve
 {% endhighlight %}
 
 Já jsem prozatím změnila název (title), email, popisek (description) a odkazy na sociální média. Ponechala jsem GitHub a přidala Discord.
