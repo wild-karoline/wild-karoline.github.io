@@ -105,7 +105,7 @@ comments: true
     const up = document.getElementsByTagName('h1')[0];
     headings.forEach((heading) => {
       const a = document.createElement('a');
-      a.setAttribute('href', '#' + up);
+      a.setAttribute('href', '#' + up.id);
       a.textContent = "[Nahoru]";
       a.style.fontSize = 'small';
 
