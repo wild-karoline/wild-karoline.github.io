@@ -43,7 +43,7 @@ int main(void)
 
 Příklad výše ilustruje možné využití funkce scanf. Prvním atributem je "%u", specifier, který funkci říká, že může očekávat celé číslo bez znaménka, tedy nezáporné. Druhý atribut, &user_input, udává, kam se má dodané číslo uložit (proč je na začátku proměnné navíc & si povíme někdy příště). Funkce po provedení načte text, vstup od uživatele až do potvrzení klávesou Enter.
 
-Pozor na oblíbenou chybu: Text s výzvou musí být na extra řádku dán funkcí printf, nic, co nechceme mít v proměnné na místě 2 a dále ve funkci scanf této funkci nepředáváme. Následující kód sice kompiluje, ale nedělá úplně to, co by se na první pohled očekávalo:
+Pozor na oblíbenou chybu: Text s výzvou musí být na extra řádku dán funkcí printf, nic, co nechceme mít v proměnné ve funkci scanf této funkci nepředáváme. Následující kód sice kompiluje, ale nedělá úplně to, co by se na první pohled očekávalo:
 
 {% highlight c %}
 #include <stdio.h>
