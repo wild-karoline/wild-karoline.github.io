@@ -4,7 +4,7 @@ title:  "scanf, aneb formátované načítání textu"
 date:   2023-09-07 07:00:00 +0200
 last_modified_at: 2023-09-07 20:00:00 +0200
 category: Programovací jazyk C
-read_time: 1 min 60 s
+read_time: 2 min 04 s
 description: Krátké představení funkce scanf (ze standardní knihovny C, stdio.h). Funkce scanf slouží k načítání formátovaného textu ze standardního vstupu programu, stdin.
 permalink: programovaci-jazyk-c/scanf
 ---
@@ -117,4 +117,4 @@ int main(void)
 
 ## Kam dál?
 
-*\-TBD\-*
+[Funkce v C]({% post_url c/2023-09-12-funkce %})
