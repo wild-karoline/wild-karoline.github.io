@@ -15,7 +15,7 @@ Do teď jsme vše psali řádek po řádku do nám již známé funkce main, kte
 
 Funkce se v C skládá z tzv. function head, který tvoří return type neboli návratová hodnota, identifier neboli jméno a parameter(list) neboli vstupy, které jsou však nepovinné. Následuje body, blok proveditelného kódu.
 
-Proměnné napsané v závorkách v definici funkce nazýváme parametry. Hodnoty, které funkci předáváme, když ji voláme, nazýváme atributy.
+Proměnné napsané v závorkách v definici funkce nazýváme parametry. Hodnoty, které funkci předáváme, když ji voláme, nazýváme argumenty.
 
 {% include image.html url="/assets/images/c/function.png" description="Syntaxe funkce v C" %}
 
