@@ -687,5 +687,3 @@ Klíčová slovíčka break a continue ovlivňují přirozený běh cyklů a mě
 ## Kam dál?
 
 [scanf, aneb formátované načítání]({% post_url c/2023-09-07-scanf %})
-
-*\-TBD\-*
