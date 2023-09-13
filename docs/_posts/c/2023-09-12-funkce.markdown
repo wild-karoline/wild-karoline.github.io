@@ -56,6 +56,8 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/07-funkce/getmax.c){:target="_blank"})
+
 Jak již bylo zmíněno, funkce, kterou chceme použít, musí být známá předtím, než ji zavoláme. Docílíme toho například tím, že ji definujeme v kódu výše než je její první volání. Další možnost představuje deklarace pomocí tzv. function prototype:
 
 {% highlight c %}
@@ -85,6 +87,8 @@ int getMax(int nr1, int nr2)
     return nr2;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/07-funkce/function-prototype.c){:target="_blank"})
+
 U prototypování ani není třeba udávat názvy parametrů, compiler potřebuje hlavně znát návratovou hodnotu, název funkce a typy parametrů. Funkční kód s prototypem by tedy mohl vypadat i následovně:
 
 {% highlight c %}
@@ -113,6 +117,8 @@ int getMax(int nr1, int nr2)
     
     return nr2;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/07-funkce/function-prototype2.c){:target="_blank"})
 
 Kdybyste pořadí prohodili, tzn. v kódu nejdřív měli main a pak až funkci, kterou v main chcete použít, pak by vám compiler vydal hlášku a varoval, že něco není v pořádku. Jako vždy, klidně si to vyzkoušejte, ať víte.
 
