@@ -71,7 +71,7 @@ Do Albánie jsme vyráželi kolem půlnoci. Při cestě dolů jsme měli štěst
 
 Všude bylo možné platit eurem! Přepočet byl ve většině případů 1:100, dvakrát počítali 1:98. Zpátky dostanete buď euro, nebo jejich měnu. Pozor na obchody, kde nejsou u zboží cenovky - bez okolků na vás u kasy vypálí nějakou smyšlenou (samozřejmě přepálenou) cenu.
 
-Ceny benzínu se pohybovaly tak nějak stejně po celém pobřeží - v rozmezí od 183 do 189 LEK (tedy 1,83 až 1,89 euro). Ubytování jsme měli ve všech případech za 40-50 euro na noc (2 dospělí, 1 dítě ve věku 15 let, v ceně parkování a wifina, do 500m od pláže). Mléko od 200 LEK, sýr od 350 LEK (nejlevnější toastový sýr), šunka a salám totéž. Víno v obchodě od 400 LEK. Cappuccino 100-150 LEK. Největší rozdíly v cenách jsme pocítili u piva - v Sarandě se ceny pohybovaly od 200 LEK (restaurace mimo pláž a promenádu), přes 500 LEK (beach bar), po 900 LEK (hotelový bar na pláži), v Himare konstantě 400-500 LEK a ve Vloře krásných 150-200 LEK (ale ne na pláži a hlavní promenádě, tam jsem upřímně ani nekoukala potom, co jsme objevili pivko za 150 LEK po cestě na pláž).
+Ceny benzínu se pohybovaly tak nějak stejně po celém pobřeží - v rozmezí od 183 do 189 LEK (tedy 1,83 až 1,89 euro). Ubytování jsme měli ve všech případech za 40-50 euro na noc (2 dospělí, 1 dítě ve věku 15 let, v ceně parkování a wifina, do 500m od pláže). Mléko od 200 LEK, sýr od 350 LEK (nejlevnější toastový sýr), šunka a salám totéž. Víno v obchodě od 400 LEK. Cappuccino 100-150 LEK. Největší rozdíly v cenách jsme pocítili u piva - v Sarandě se ceny pohybovaly od 200 LEK (restaurace mimo pláž a promenádu), přes 500 LEK (beach bar), po 900 LEK (hotelový bar na pláži), v Himare konstantně 400-500 LEK a ve Vloře krásných 150-200 LEK (ale ne na pláži a hlavní promenádě, tam jsem upřímně ani nekoukala potom, co jsme objevili pivko za 150 LEK po cestě na pláž).
 
 Ještě předtím, než jsme opustili Chorvatsko, jsme si všichni zapli letový režim. Ubytování jsme si hledali vždy s wifinou a ve všech hospodách a restauracích, které jsme navštívili, bylo rovněž internetové připojení k dispozici. Poněvadž jsem si před odjezdem stáhla offline mapy na Černou Horu a Albánii, měli jsme i toto pokryté. Tudíž kupovat albánskou SIMku pro nás vůbec nebylo nutné, v pohodě jsme si vystačili s tímto řešením.
 
@@ -79,7 +79,7 @@ Ještě předtím, než jsme opustili Chorvatsko, jsme si všichni zapli letový
 
 V Sarandě jsme trénovali albánský provoz. Auta parkují všude, řidiči rádi troubí, silnice jsou úzké. Jen pro otrlé. To jen pro info.
 
-Jinak se jedná o letovisko na jihu země na albánské riviéře. Na jedné straně moře a výhled až na Korfu, na druhé straně hory. Co nás tam trochu iritovalo byly odpadky - ve městě ztěží najdete odpadkový koš a podle toho to také vypadá. O ulicích mimo hlavní turistické tahy ani nemluvím, tam se snad ani nikdo neobtěžuje odpadky odklízet.
+Jinak se jedná o letovisko na jihu země na albánské riviéře. Na jedné straně moře a výhled až na Korfu, na druhé straně hory. Co nás tam trochu iritovalo byly odpadky - ve městě stěží najdete odpadkový koš a podle toho to také vypadá. O ulicích mimo hlavní turistické tahy ani nemluvím, tam se snad ani nikdo neobtěžuje odpadky odklízet.
 
 {% include image.html url="/assets/images/albanie/saranda/saranda.jpg" description="Saranda" %}
 
@@ -87,7 +87,7 @@ Jinak se jedná o letovisko na jihu země na albánské riviéře. Na jedné str
 
 #### Bistrica Beach
 
-V Sarandě jsme byli 3 dny, z toho 1 den byl zákaz koupání kvůli větru a vlnám. První den jsme strávili na pláži nejblíže ubytování (pod hotelem Nertili), druhý už jsme si dali více záležet na výběru. Rozhodnutí padlo na pláž, kde ústí říčka Bistrica a bylo to super! Vůbec ne přelidněná, voda příjěmně chladná díky Bistrici (říčka má celoročně kolem 10 °C) a pěkný pohled na Řecko u Sarandu.
+V Sarandě jsme byli 3 dny, z toho 1 den byl zákaz koupání kvůli větru a vlnám. První den jsme strávili na pláži nejblíže ubytování (pod hotelem Nertili), druhý den už jsme si dali více záležet na výběru. Rozhodnutí padlo na pláž, kde ústí říčka Bistrica a bylo to super! Vůbec ne přelidněná, voda příjěmně chladná díky Bistrici (říčka má celoročně kolem 10 °C) a pěkný pohled na Řecko u Sarandu.
 
 {% include image.html url="/assets/images/albanie/saranda/saranda-bistrica.jpg" description="Saranda, Bistrica beach" %}
 
@@ -121,13 +121,13 @@ Parkování jsme si zaplatili na 2 hod, což bylo dostačující. Od parkovišt�
 
 ### Himarë
 
-Oblast od Qepara po Dhërmi zahrnující právě Himarë se nám líbila nejvíce. Moře nádherné, na ulicích odpadkové čisto (a tudíž čisto), lidé milí. Ceny piva tu tak nekolísali jako v Sarandě - velké pivo tu bylo všude, co jsme byli, za ca. 4 eura.
+Oblast od Qepara po Dhërmi zahrnující právě Himarë se nám líbila nejvíce. Moře nádherné, na ulicích odpadkové koše (a tudíž čisto), lidé milí. Ceny piva tu tak nekolísali jako v Sarandě - velké pivo tu bylo všude, co jsme byli, za ca. 4 eura.
 
 {% include image.html url="/assets/images/albanie/himare/himare.jpg" description="Himarë, Plazhi i Himarës" %}
 
 #### Qeparo
 
-Ze Sarandy do Himare je to co by kamenem dohodil. A protože jsme měli tedy dost času, brouzdali jsme [FB skupinou o Albánii](https://www.facebook.com/groups/cestujemedoalbanie/) a narazili na tip zastavit se v horním Qeparu. V příspěvku doslova stálo "zahněte u 2 šedivých vrat". Bez bližšího infa jsme to opravdu zvládli. Pro nervózní, jako jsme byli my, přikládám výstřižek z Google maps, vrata nelze přehlédnout. Ještě dodám, že cesta je opět jen pro otrlé řidiče - velmi úzká a velmi strmá.
+Ze Sarandy do Himarë je to co by kamenem dohodil. A protože jsme měli tedy dost času, brouzdali jsme [FB skupinou o Albánii](https://www.facebook.com/groups/cestujemedoalbanie/) a narazili na tip zastavit se v horním Qeparu. V příspěvku doslova stálo "zahněte u 2 šedivých vrat". Bez bližšího infa jsme to opravdu zvládli. Pro nervózní, jako jsme byli my, přikládám výstřižek z Google maps, vrata nelze přehlédnout. Ještě dodám, že cesta je opět jen pro otrlé řidiče - velmi úzká a velmi strmá.
 
 {% include image.html url="/assets/images/albanie/himare/qeparo-vrata.JPG" description="Šedivá vrata, silnice k hornímu Qeparu" %}
 
