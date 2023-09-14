@@ -2,7 +2,7 @@
 layout: post
 title:  "Funkce v C"
 date:   2023-09-12 09:00:00 +0200
-last_modified_at: 2023-09-12 09:00:00 +0200
+last_modified_at: 2023-09-14 07:00:00 +0200
 category: Programovací jazyk C
 read_time: 2 min 59 s
 description: Funkce v programování, konkrétně funkce v programovacím jazyku C.
@@ -124,4 +124,4 @@ Kdybyste pořadí prohodili, tzn. v kódu nejdřív měli main a pak až funkci,
 
 ## Kam dál?
 
-*\-TBD\-*
+[Předchozí [Funkce v C]]({% post_url c/2023-09-14-opakovani-kalkulacka %})
