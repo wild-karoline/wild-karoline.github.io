@@ -393,7 +393,7 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/ternary2.c){:target="_blank"})
+<a href="https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/ternary2.c" target="_blank">(Odkaz na GitHub)</a>
 
   </details>
 <br />
