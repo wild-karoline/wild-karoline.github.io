@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Opakování - kalkulačka"
-date:   2023-09-14 09:00:00 +0200
-last_modified_at: 2023-09-14 09:00:00 +0200
+date:   2023-09-14 07:00:00 +0200
+last_modified_at: 2023-09-14 07:00:00 +0200
 category: Programovací jazyk C
 read_time: 3 min 45 s
 description: Opakování doposud probraného, včetně funkcí, na příkladu jednoduché kalkulačky psané v programovacím jazyku C.
@@ -207,7 +207,7 @@ int main(void)
  {% endhighlight %}
 
 <!-- TODO -->
-Kód je jako vždy dostupný na <a href="https://wild-karoline.github.io/programovaci-jazyk-c/scanf">GitHubu</a>.
+Kód je jako vždy dostupný na <a href="https://github.com/wild-karoline/C/blob/main/08-kalkulacka/calculator.c">GitHubu</a>.
   </details>
 <br />
 
