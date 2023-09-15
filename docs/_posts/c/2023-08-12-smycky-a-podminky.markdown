@@ -213,6 +213,7 @@ int main(void)
 } {% endhighlight %}
 
 <a href="https://github.com/wild-karoline/C/blob/main/05-smycky-a-podminky/if1.c" target="_blank">(Odkaz na GitHub)</a>
+<br />
 
 Víte, co se stane, když program postavíte na samotných if? Tedy bez else? A co se stane, když vynecháte složené závorky mezi if-else? Do toho, vyzkoušejte si to, pokud si nejste jistí! 🙃
 </details>
