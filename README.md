@@ -1,4 +1,8 @@
+# Wild blog
+
 Blog vytvořený pomocí generátoru Jekyll. Přístupný na: https://wild-karoline.github.io/
+
+## Vlastní úpravy šablony
 
 Použita šablona "Minima". Přepsané, případně přidané následující soubory: 
 - _includes:
@@ -11,3 +15,7 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
     - home (kvůli zobrazení délky článku, resp. času nutného k přečtení), post (přidána informace o last-modified, přidána možnost komentářů přes Disqus, vytvoření obsahu na začátku každého příspěvku, přidáno tlačítko k návratu nahoru u každého nadpisu)
   - přidané:
     - categories (zobrazení článků podle kategorií)
+   
+## Obsah
+
+TBD
