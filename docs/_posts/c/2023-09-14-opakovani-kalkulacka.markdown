@@ -13,7 +13,7 @@ permalink: programovaci-jazyk-c/opakovani-kalkulacka
 
 Dnes si naprogramujeme jednoduchou kalkulačku. Dřív, než se podíváte na řešení, vyzkoušejte si implementaci sami. Opravdu, věřte mi. Jenom čtením kódu se programovat nenaučíte, je potřeba samostatně zkoušet, chybovat a znovu zkoušet.
 
-*Upozorňuju, že se moje řešení může (a pravděpodobně bude) od vašeho lišit! Každý má jiné nápady, jiné myšlenkové pochody. V normálním světě, tam venku, by body, kde se názory rozcházejí, byly předmětem diskuze, případně by ideálně byly rovnou součástí specifikace (např. po poradě se zákazníkem). Pokud vaše řešení dělá to, co má, je to v pořádku. Pokud se budete držet zásady, že každá funkce má plnit jenom jednu úlohu, rozdělíte kód, budete ho udržovat hezky čitelný, ještě lépe.*
+*Upozorňuju, že se moje řešení může (a pravděpodobně bude) od vašeho lišit! Každý má jiné nápady, jiné myšlenkové pochody. V normálním světě, tam venku, by body, kde se názory rozcházejí, byly předmětem diskuze, případně by ideálně byly rovnou součástí specifikace (např. po poradě se zákazníkem). Pokud vaše řešení dělá to, co má, je to v pořádku. Pokud se budete držet zásady, že každá funkce má plnit jenom jednu úlohu, rozdělíte kód, budete ho udržovat hezky čitelný, o to lépe.*
 
 Začneme tím, že si vytvoříme základní kostru. Každý program potřebuje main-funkci, dodatečně k této hlavní funkci se zamyslíme i nad tím, jaké další funkcionality by naše kalkulačka měla mít.
 
@@ -102,9 +102,9 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-Nezapomeňte u dělení dát návratnou hodnotu double - pokud byste dali int, pak by se vždy vracelo pouze celé číslo a tudíž (většinou) nesprávný výsledek. A také je třeba dopsat u return double, protože int děleno int je vždy int a tedy výpočet je celé číslo, i přesto, že je následně vráceno na volajícího ve formě desetinného (opět - zkuste si (double) vynechat a mrkněte, co se stane).
+Nezapomeňte u dělení dát návratnou hodnotu double - pokud byste dali int, pak by se vždy vracelo pouze celé číslo a tudíž (většinou) nesprávný výsledek. A také je třeba dopsat u return double, protože int děleno int je vždy int a tedy výpočet je celé číslo, i přesto, že je následně vráceno na volajícího ve formě desetinného čísla (opět - zkuste si (double) vynechat a mrkněte, co se stane).
 
-V případě, že je dělitel 0, funkce má vytisknout na konzoli chybovou hlášku. Vrátit by se mohlo jakékoli číslo, -1 (nebo i 1, 2 atd., prostě jiné než 0) však často značí chybu.
+V případě, že je dělitel 0, funkce má vytisknout na konzoli chybovou hlášku. Vrátit by se mohlo jakékoli číslo, např. -1 (nebo i 1, 2 atd., prostě jiné než 0). Mezi programátory se ustálilo, že jakékoli jiné číslo než 0 značí chybu. Např. ([zde](https://stackoverflow.com/questions/204476/what-should-main-return-in-c-and-c){:target="_blank"}) je hezky popsáno, co znamená návratové hodnota main.
 
 Také si ohlídejte format specifier u printf v mainu. Tentokrát je třeba %f, protože jako argument máme desetinné číslo.
   </details>
