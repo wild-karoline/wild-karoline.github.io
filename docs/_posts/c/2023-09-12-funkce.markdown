@@ -13,7 +13,7 @@ permalink: programovaci-jazyk-c/funkce
 
 Do teď jsme vše psali řádek po řádku do nám již známé funkce main, která také značí počátek programu, bod, kde všechno začíná. Program je však možné dále členit a to do dalších funkcí. Výhodou pak bývá rozdělení velkého problému na dílčí části, čtivost kódu a jeho struktura, rozdělení prací, abstrakce (volající nemusí vědět, jak nějaká funkce funguje, pouze co dělá) a samozřejmě možnost kód použít opakovaně bez toho, aby se musel celý znovu vypisovat. Funkce tedy vlastně tvoří blok kódu, který má jméno a je možné jej (opakovaně) volat.
 
-Funkce se v C skládá z tzv. function head, který tvoří return type neboli návratový typ, identifier neboli jméno a parameter(list) neboli vstupy, které jsou však nepovinné. Následuje body, blok proveditelného kódu.
+Funkce se v C skládá z tzv. function head, který tvoří return type neboli návratový typ, identifier neboli jméno a parameter(list) neboli vstupy, které jsou však nepovinné. Následuje body neboli tělo funkce, blok proveditelného kódu.
 
 {% include image.html url="/assets/images/c/function.png" description="Syntaxe funkce v C" %}
 
@@ -21,7 +21,7 @@ Proměnné napsané v závorkách v definici funkce nazýváme parametry. Hodnot
 
 Funkce musí být před prvním použitím známá. To znamená, že buď musí být před prvním voláním definována, nebo že je předtím deklarována pomocí tzv. function prototype. Obě možnosti si ukážeme později na příkladu.
 
-Funkce, která má něco vracet, má návratový datový typ jinou než void, musí mít na konci klíčové slovo *return* následované tím, co má funkce vracet (tzv. return value). Toto klíčové slovo ukončuje funkci a vrací nějakou hodnotu na volajícího. Klíčové slovo *return* se může nacházet na vícero místech ve funkci. V případe main funkce jsme zatím vraceli pouze hodnotu 0 - 0 značí úspěch, jakákoliv jiná hodnota chybu.
+Funkce, která má něco vracet, má návratový datový typ jinou než void, musí mít na konci klíčové slovo *return* následované tím, co má funkce vracet (tzv. return value). Toto klíčové slovo ukončuje funkci a vrací nějakou hodnotu na volajícího. Klíčové slovo *return* se může nacházet na vícero místech ve funkci. V případě main funkce jsme zatím vraceli pouze hodnotu 0 - 0 značí úspěch, jakákoliv jiná hodnota chybu.
 
 Při psaní funkcí je nutno mít na paměti, že co funkce, to funkcionalita. To znamená, že funkce by měla mít pouze jednu jedinou povinnost, práci, kterou má vykonat. Pokud funkce dělá víc věcí najednou, je lepší ji rozdělit na vícero funkcí. S tím souvisí, že by funkce neměla mít žádný vedlejší účinek, tzv. side effect, působit jinde, než kde má, jinak, než jaká je její hlavní činnost.
 
