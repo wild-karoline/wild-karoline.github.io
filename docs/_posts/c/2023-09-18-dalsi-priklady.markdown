@@ -89,7 +89,7 @@ void printVitej()
 clang -Wall ctyruhelniky.c -lm
 {% endhighlight %}
 
-<a href="https://github.com/wild-karoline/C/blob/main/09-dalsi-priklady/ctyruhelnik.c">(Odkaz na GitHub)</a>
+<a href="https://github.com/wild-karoline/C/blob/main/09-dalsi-priklady/ctyruhelnik.c" target="_blank">(Odkaz na GitHub)</a>
 <br /><br />
 
 Znovu připomínám, že vaše řešení se klidně může lišit. Zobrazení nějakého uvítacího textu není nutností. Stejně tak můžete mít použité jiné datové typy (dokud to alespoň trochu dává smysl a výpočty sedí). O názvech proměnných, funkcí, nebo struktuře zdrojového kódu ani nemluvím.
@@ -193,10 +193,10 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
-<a href="https://github.com/wild-karoline/C/blob/main/09-dalsi-priklady/bmi.c">(Odkaz na GitHub)</a>
+<a href="https://github.com/wild-karoline/C/blob/main/09-dalsi-priklady/bmi.c" target="_blank">(Odkaz na GitHub)</a>
 <br /><br />
 
-V případě nejasností nebo dotazů se mi klidně ozvěte buď tady do komentářů, nebo na <a href="https://discord.gg/hB8UYAgwUE">Discordu</a>.
+V případě nejasností nebo dotazů se mi klidně ozvěte buď tady do komentářů, nebo na <a href="https://discord.gg/hB8UYAgwUE" target="_blank">Discordu</a>.
   </details>
 <br />
 
@@ -265,7 +265,7 @@ int main(void)
 } {% endhighlight %}
 
 <!-- TODO -->
-<a href="https://github.com/wild-karoline/C/blob/main/09-dalsi-priklady/hadej.c">(Odkaz na GitHub)</a>
+<a href="https://github.com/wild-karoline/C/blob/main/09-dalsi-priklady/hadej.c" target="_blank">(Odkaz na GitHub)</a>
 <br />
   </details>
 <br />
@@ -446,7 +446,7 @@ int vysledekKola(int volba_hrace, int volba_pocitace)
     }
 } {% endhighlight %}
 
-<a href="https://github.com/wild-karoline/C/blob/main/09-dalsi-priklady/kamen_nuzky_papir.c">(Odkaz na GitHub)</a>
+<a href="https://github.com/wild-karoline/C/blob/main/09-dalsi-priklady/kamen_nuzky_papir.c" target="_blank">(Odkaz na GitHub)</a>
 <br />
   </details>
 <br />

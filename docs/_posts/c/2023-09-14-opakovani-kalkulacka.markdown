@@ -104,7 +104,7 @@ int main(void)
 
 Nezapomeňte u dělení dát návratnou hodnotu double - pokud byste dali int, pak by se vždy vracelo pouze celé číslo a tudíž (většinou) nesprávný výsledek. A také je třeba dopsat u return double, protože int děleno int je vždy int a tedy výpočet je celé číslo, i přesto, že je následně vráceno na volajícího ve formě desetinného čísla (opět - zkuste si (double) vynechat a mrkněte, co se stane).
 
-V případě, že je dělitel 0, funkce má vytisknout na konzoli chybovou hlášku. Vrátit by se mohlo jakékoli číslo, např. -1 (nebo i 1, 2 atd., prostě jiné než 0). Mezi programátory se ustálilo, že jakékoli jiné číslo než 0 značí chybu. Např. ([zde](https://stackoverflow.com/questions/204476/what-should-main-return-in-c-and-c){:target="_blank"}) je hezky popsáno, co znamená návratové hodnota main.
+V případě, že je dělitel 0, funkce má vytisknout na konzoli chybovou hlášku. Vrátit by se mohlo jakékoli číslo, např. -1 (nebo i 1, 2 atd., prostě jiné než 0). Mezi programátory se ustálilo, že jakékoli jiné číslo než 0 značí chybu. Např. <a href="https://stackoverflow.com/questions/204476/what-should-main-return-in-c-and-c" target="_blank">zde</a> je hezky popsáno, co znamená návratové hodnota main.
 
 Také si ohlídejte format specifier u printf v mainu. Tentokrát je třeba %f, protože jako argument máme desetinné číslo.
   </details>
@@ -207,7 +207,7 @@ int main(void)
  {% endhighlight %}
 
 <!-- TODO -->
-Kód je jako vždy dostupný na <a href="https://github.com/wild-karoline/C/blob/main/08-kalkulacka/calculator.c">GitHubu</a>.
+Kód je jako vždy dostupný na <a href="https://github.com/wild-karoline/C/blob/main/08-kalkulacka/calculator.c" target="_blank">GitHubu</a>.
   </details>
 <br />
 
