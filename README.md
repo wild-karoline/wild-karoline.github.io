@@ -32,8 +32,8 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
 | 05.08.2023 | Nezařazené | Dovolená v Albánii | | |
 | 09.08.2023 | Programovací jazyk C | Opakování - datové typy, operátory, ASCII | https://wild-karoline.github.io/programovaci-jazyk-c/opakovani-datove-typy-operatory-ascii |
 | 11.08.2023 | Blogování | Title = title \| description??? | https://wild-karoline.github.io/blogovani/title-tag-title-description | |
-| 12.08.2023 | Programovací jazyk C | Smyčky a podmínky v C | | |
-| 07.09.2023 | Programovací jazyk C | scanf, aneb formátované načítání textu | | |
-| 12.09.2023 | Programovací jazyk C | Funkce v C | | |
+| 12.08.2023 | Programovací jazyk C | Smyčky a podmínky v C |https://wild-karoline.github.io/programovaci-jazyk-c/smycky-a-podminky | |
+| 07.09.2023 | Programovací jazyk C | scanf, aneb formátované načítání textu | https://wild-karoline.github.io/programovaci-jazyk-c/scanf | |
+| 12.09.2023 | Programovací jazyk C | Funkce v C | https://wild-karoline.github.io/programovaci-jazyk-c/funkce | |
 | 14.09.2023 | Programovací jazyk C | Opakování - kalkulačka | | |
 | 18.09.2023 | Programovací jazyk C | Další příklady | | |
