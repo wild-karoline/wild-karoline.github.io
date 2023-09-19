@@ -35,5 +35,5 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
 | 12.08.2023 | Programovací jazyk C | Smyčky a podmínky v C |https://wild-karoline.github.io/programovaci-jazyk-c/smycky-a-podminky | |
 | 07.09.2023 | Programovací jazyk C | scanf, aneb formátované načítání textu | https://wild-karoline.github.io/programovaci-jazyk-c/scanf | |
 | 12.09.2023 | Programovací jazyk C | Funkce v C | https://wild-karoline.github.io/programovaci-jazyk-c/funkce | |
-| 14.09.2023 | Programovací jazyk C | Opakování - kalkulačka | | |
-| 18.09.2023 | Programovací jazyk C | Další příklady | | |
+| 14.09.2023 | Programovací jazyk C | Opakování - kalkulačka | https://wild-karoline.github.io/programovaci-jazyk-c/opakovani-kalkulacka | |
+| 18.09.2023 | Programovací jazyk C | Další příklady | https://wild-karoline.github.io/programovaci-jazyk-c/dalsi-priklady | |
