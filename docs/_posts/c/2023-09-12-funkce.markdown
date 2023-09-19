@@ -124,4 +124,4 @@ Kdybyste pořadí prohodili, tzn. v kódu nejdřív měli main a pak až funkci,
 
 ## Kam dál?
 
-[Předchozí [Funkce v C]]({% post_url c/2023-09-14-opakovani-kalkulacka %})
+[Opakování - kalkulačka]({% post_url c/2023-09-14-opakovani-kalkulacka %})
