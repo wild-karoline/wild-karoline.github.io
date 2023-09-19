@@ -20,7 +20,7 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
 
 | Datum | Kategorie | Příspěvek | Odkaz web | Odkaz Jekyll |
 | --- | --- | --- | --- | --- |
-| 24.06.2023 | Blogování | Jak založit blog | https://wild-karoline.github.io/blogovani/jak-zalozit-blog | |
+| 24.06.2023 | Blogování | [Jak založit blog](https://wild-karoline.github.io/blogovani/jak-zalozit-blog) | https://wild-karoline.github.io/blogovani/jak-zalozit-blog | |
 | 26.06.2023 | Blogování | Základní konfigurace blogu | | |
 | 28.06.2023 | Blogování | Jak vytvořit příspěvek na blog | | |
 | 29.06.2023 | Blogování | Jak zveřejnit blog | | |
