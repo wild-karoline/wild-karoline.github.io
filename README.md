@@ -29,7 +29,7 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
 | 18.07.2023 | Blogování | Příspěvek se nezobrazuje? | https://wild-karoline.github.io/blogovani/prispevek-se-nezobrazuje | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/blogovani/2023-07-18-prispevek-se-nezobrazuje.markdown |
 | 18.07.2023 | Programovací jazyk C | Operátory v C | https://wild-karoline.github.io/programovaci-jazyk-c/operatory-v-c | |
 | 20.07.2023 | Blogování | Jak jsem vytvořila rozcestník | https://wild-karoline.github.io/blogovani/jak-jsem-vytvorila-rozcestnik | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/blogovani/2023-07-20-jak-jsem-vytvorila-rozcestnik.markdown |
-| 05.08.2023 | Nezařazené | Dovolená v Albánii | | |
+| 05.08.2023 | Nezařazené | Dovolená v Albánii | https://wild-karoline.github.io/nezarazene/dovolena-v-albanii | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/nezarazene/2023-08-05-dovolena-v-albanii.markdown |
 | 09.08.2023 | Programovací jazyk C | Opakování - datové typy, operátory, ASCII | https://wild-karoline.github.io/programovaci-jazyk-c/opakovani-datove-typy-operatory-ascii |
 | 11.08.2023 | Blogování | Title = title \| description??? | https://wild-karoline.github.io/blogovani/title-tag-title-description | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/blogovani/2023-08-11-title-tag-title-description.markdown |
 | 12.08.2023 | Programovací jazyk C | Smyčky a podmínky v C |https://wild-karoline.github.io/programovaci-jazyk-c/smycky-a-podminky | |
