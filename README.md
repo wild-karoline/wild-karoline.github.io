@@ -37,3 +37,4 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
 | 12.09.2023 | Programovací jazyk C | Funkce v C | https://wild-karoline.github.io/programovaci-jazyk-c/funkce | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-09-12-funkce.markdown |
 | 14.09.2023 | Programovací jazyk C | Opakování - kalkulačka | https://wild-karoline.github.io/programovaci-jazyk-c/opakovani-kalkulacka | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-09-14-opakovani-kalkulacka.markdown |
 | 18.09.2023 | Programovací jazyk C | Další příklady | https://wild-karoline.github.io/programovaci-jazyk-c/dalsi-priklady | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-09-18-dalsi-priklady.markdown |
+| *21.09.2023* | *Programovací jazyk C* | *Datová pole (arrays)* | |
