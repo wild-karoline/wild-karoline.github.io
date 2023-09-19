@@ -18,20 +18,20 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
    
 ## Obsah
 
-| Datum | Kategorie | Příspěvek | Odkaz web | Odkaz Jekyll |
+| Datum | Kategorie | Příspěvek | Odkaz web | Odkaz Jekyll markdown |
 | --- | --- | --- | --- | --- |
 | 24.06.2023 | Blogování | Jak založit blog | https://wild-karoline.github.io/blogovani/jak-zalozit-blog | |
-| 26.06.2023 | Blogování | Základní konfigurace blogu | | |
-| 28.06.2023 | Blogování | Jak vytvořit příspěvek na blog | | |
-| 29.06.2023 | Blogování | Jak zveřejnit blog | | |
+| 26.06.2023 | Blogování | Základní konfigurace blogu | https://wild-karoline.github.io/blogovani/zakladni-konfigurace-blogu | |
+| 28.06.2023 | Blogování | Jak vytvořit příspěvek na blog | https://wild-karoline.github.io/blogovani/jak-vytvorit-prispevek-na-blog | |
+| 29.06.2023 | Blogování | Jak zveřejnit blog | https://wild-karoline.github.io/blogovani/jak-zverejnit-blog | |
 | 05.07.2023 | Programovací jazyk C | Úvod do programování v jazyce C | | v
 | 07.07.2023 | Programovací jazyk C | První program, datové typy a printf | | |
-| 18.07.2023 | Blogování | Příspěvek se nezobrazuje? | | |
+| 18.07.2023 | Blogování | Příspěvek se nezobrazuje? | https://wild-karoline.github.io/blogovani/prispevek-se-nezobrazuje | |
 | 18.07.2023 | Programovací jazyk C | Operátory v C | | |
-| 20.07.2023 | Blogování | Jak jsem vytvořila rozcestník | | |
+| 20.07.2023 | Blogování | Jak jsem vytvořila rozcestník | https://wild-karoline.github.io/blogovani/jak-jsem-vytvorila-rozcestnik | |
 | 05.08.2023 | Nezařazené | Dovolená v Albánii | | |
 | 09.08.2023 | Programovací jazyk C | Opakování - datové typy, operátory, ASCII | |
-| 11.08.2023 | Blogování | Title = title \| description??? | | |
+| 11.08.2023 | Blogování | Title = title \| description??? | https://wild-karoline.github.io/blogovani/title-tag-title-description | |
 | 12.08.2023 | Programovací jazyk C | Smyčky a podmínky v C | | |
 | 07.09.2023 | Programovací jazyk C | scanf, aneb formátované načítání textu | | |
 | 12.09.2023 | Programovací jazyk C | Funkce v C | | |
