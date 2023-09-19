@@ -24,13 +24,13 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
 | 26.06.2023 | Blogování | Základní konfigurace blogu | https://wild-karoline.github.io/blogovani/zakladni-konfigurace-blogu | |
 | 28.06.2023 | Blogování | Jak vytvořit příspěvek na blog | https://wild-karoline.github.io/blogovani/jak-vytvorit-prispevek-na-blog | |
 | 29.06.2023 | Blogování | Jak zveřejnit blog | https://wild-karoline.github.io/blogovani/jak-zverejnit-blog | |
-| 05.07.2023 | Programovací jazyk C | Úvod do programování v jazyce C | | v
-| 07.07.2023 | Programovací jazyk C | První program, datové typy a printf | | |
+| 05.07.2023 | Programovací jazyk C | Úvod do programování v jazyce C | https://wild-karoline.github.io/programovaci-jazyk-c/uvod-do-programovani-v-jazyce-c | | 
+| 07.07.2023 | Programovací jazyk C | První program, datové typy a printf | https://wild-karoline.github.io/programovaci-jazyk-c/prvni-program-datove-typy-a-printf | |
 | 18.07.2023 | Blogování | Příspěvek se nezobrazuje? | https://wild-karoline.github.io/blogovani/prispevek-se-nezobrazuje | |
-| 18.07.2023 | Programovací jazyk C | Operátory v C | | |
+| 18.07.2023 | Programovací jazyk C | Operátory v C | https://wild-karoline.github.io/programovaci-jazyk-c/operatory-v-c | |
 | 20.07.2023 | Blogování | Jak jsem vytvořila rozcestník | https://wild-karoline.github.io/blogovani/jak-jsem-vytvorila-rozcestnik | |
 | 05.08.2023 | Nezařazené | Dovolená v Albánii | | |
-| 09.08.2023 | Programovací jazyk C | Opakování - datové typy, operátory, ASCII | |
+| 09.08.2023 | Programovací jazyk C | Opakování - datové typy, operátory, ASCII | https://wild-karoline.github.io/programovaci-jazyk-c/opakovani-datove-typy-operatory-ascii |
 | 11.08.2023 | Blogování | Title = title \| description??? | https://wild-karoline.github.io/blogovani/title-tag-title-description | |
 | 12.08.2023 | Programovací jazyk C | Smyčky a podmínky v C | | |
 | 07.09.2023 | Programovací jazyk C | scanf, aneb formátované načítání textu | | |
