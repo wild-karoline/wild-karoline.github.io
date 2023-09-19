@@ -215,4 +215,4 @@ Gratuluju všem, kdo se prokousali až sem. Vím, že začátky nejsou jednoduch
 
 ## Kam dál?
 
-*\-TBD\-*
+[Další příklady]({% post_url c/2023-09-18-dalsi-priklady %})
