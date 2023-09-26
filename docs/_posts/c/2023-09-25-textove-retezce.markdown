@@ -73,6 +73,8 @@ int main(void)
     return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/11-textove-retezce/textove-retezce.c){:target="_blank"})
+
 Všimněte si, že ať už zadáte jakékoli jméno, končí novým řádkem (\n, nebo 10) a null bytem (0). Cokoli potom jsou nedefinované hodnoty, hodnoty, které v paměti už byly.
 
 ## Kam dál?
