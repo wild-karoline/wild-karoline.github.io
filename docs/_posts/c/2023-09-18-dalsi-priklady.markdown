@@ -453,4 +453,4 @@ int vysledekKola(int volba_hrace, int volba_pocitace)
 
 ## Kam dál?
 
-*\-TBD\-*
+[Datová pole (arrays)]({% post_url c/2023-09-21-datova-pole %})

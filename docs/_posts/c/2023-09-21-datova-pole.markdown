@@ -264,4 +264,4 @@ int main(void)
 
 ## Kam dál?
 
-*\-TBD\-*
+[Textové řetězce (strings)]({% post_url c/2023-09-25-textove-retezce %})
