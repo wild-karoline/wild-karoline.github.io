@@ -2,14 +2,14 @@
 layout: post
 title:  "Další příklady"
 date:   2023-09-18 07:00:00 +0200
-last_modified_at: 2023-09-18 07:00:00 +0200
+last_modified_at: 2023-09-26 10:25:00 +0200
 category: Programovací jazyk C
 read_time: 6 min 7 s
 description: Další příklady na procvičování programování v C. Opakování smyček, funkcí, printf, scanf.
 permalink: programovaci-jazyk-c/dalsi-priklady
 ---
 
-[Předchozí [Funkce v C]]({% post_url c/2023-09-14-opakovani-kalkulacka %})
+[Předchozí [Opakování - kalkulačka]]({% post_url c/2023-09-14-opakovani-kalkulacka %})
 
 Určitě jsem to už jednou zmiňovala - naučit se programovat není jen a pouze o čtení textů a kódu. Pokud se opravdu chcete naučit programovat, musíte především právě programovat. I generování chyb vás posouvá dál. Naučí vás to číst v chybových hláškách, pátrat se po chybách, nebát se toho a zkoušet nové věci. A proto jsem si pro vás připravila ještě jeden příspěvek s pár příklady na procvičování.
 
