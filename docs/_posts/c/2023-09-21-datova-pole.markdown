@@ -2,7 +2,7 @@
 layout: post
 title:  "Datová pole (arrays)"
 date:   2023-09-21 07:00:00 +0200
-last_modified_at: 2023-09-21 07:00:00 +0200
+last_modified_at: 2023-09-26 10:25:00 +0200
 category: Programovací jazyk C
 read_time: 5 min 41 s
 description: Datová pole (angl. arrays) v programovacím jazyce C. Struktury pro ukládání dat stejného typu.
@@ -224,7 +224,7 @@ Napište program, který na konzoli vytiskne tabulku malé násobilky (tabulku n
 V zadání už máme klíčové slovo *tabulka*, které by nám mělo napovědět, že budeme potřebovat 2D datové pole. Toto datové pole pak bude mít velikost 10 x 10 prvků.
 <br /><br />
 
-Pro zaplnění i vytisknutí budeme potřebovat 2 v smyčky.
+Pro zaplnění i vytisknutí budeme potřebovat 2 smyčky (v sobě).
 <br /><br />
 
 Aby byla čísla hezky zarovnaná, použila jsem format specifier <em>%2d</em>.
