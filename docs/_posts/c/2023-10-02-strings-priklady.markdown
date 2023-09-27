@@ -4,7 +4,7 @@ title:  "Strings - příklady"
 date:   2023-10-02 07:00:00 +0200
 last_modified_at: 2023-09-28 07:00:00 +0200
 category: Programovací jazyk C
-read_time: 1 min 29 s
+read_time: 3 min 39 s
 description: Příklady na procvičování práce s textovými řetězci.
 permalink: programovaci-jazyk-c/strings-priklady
 ---
@@ -156,3 +156,7 @@ Následně si odchytíme 2. argument, ve kterém je slovo, které si přejeme ot
 V samotné stringPalindrom funkci následně porovnáváme první a poslední písmenko tak dlouho, dokud se oba indexy nesejdou uprostřed (dokud nejsou stejné). Pokud se na nějakém místě obsah pole neshoduje, pak vracíme 0 (nepravdu). Pokud celá smyčka doběhne do konce, znamená to, že se neobjevila žádná neshoda a můžeme vracet hodnotu jinou než 0.
 </details>
 <br />
+
+## Kam dál?
+
+*\-TBD\-*
