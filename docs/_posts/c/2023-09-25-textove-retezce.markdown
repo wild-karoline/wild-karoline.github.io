@@ -79,4 +79,4 @@ Všimněte si, že ať už zadáte jakékoli jméno, končí novým řádkem (\n
 
 ## Kam dál?
 
-*\-TBD\-*
+[Argumenty předané programu z příkazového řádku]({% post_url c/2023-09-28-argumenty-z-prikazoveho-radku %})
