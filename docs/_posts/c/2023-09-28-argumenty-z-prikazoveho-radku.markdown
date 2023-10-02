@@ -71,4 +71,4 @@ Tak si s tím klidně pohrajte a zkoušejte. Předávání argumentů programu j
 
 ## Kam dál?
 
-*\-TBD\-*
+[Strings - příklady]({% post_url c/2023-10-02-strings-priklady %})
