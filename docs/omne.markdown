@@ -6,8 +6,8 @@ permalink: /omne/
 
 Zdravíčko a vítám tě na mým blogu 😄
 
-Občas ráda googlím a zkouším nové věci. A určitě to znáš taky, někdy se stane, že se k výsledku člověk dostane až přes všelijaké okliky a slepé uličky. No a právě pro takové případy jsem se rozhodla začít psát blog, třeba někomu to bloudění internetem urychlím nebo zpříjemním.
+jsem certifikovaná softwarová vývojářka s prvními pracovními zkušenostmi za sebou. Momentálně dokončuji studium informatiky na jedné technické univerzitě v Rakousku.
 
-Jinak tedy něco o mně. Jsem normální holka, nijak nevyčnívám z davu, občas se trochu věnuji IT, jindy trochu háčkuju a nebo trochu víc jezdím na kole (třeba se taky někdy dostanu k sepsání mých cest - celé cyklistění začalo bláznivým nápadem dojet na kole k moři).
+Mezi mé koníčky vedle IT a vzdělávání se patří například háčkování nebo cyklistika (dálková, jezdím nejraději na vícedenní výlety se stanem).
 
-Jsem teď přes léto hodně na cestách, tak je tohle jen krátký úvod. Už tu ta vzorová stránka od Jekyllu / Minimy visela moc dlouho 😅
+Ale k věci - proč píšu tenhle blog? Jsem zastáncem názoru, že vědění se má šířit a obohacovat široké okolí. Hledala jsem místo, kde se budu moci realizovat, předávat některé z mých znalostí dál, místo, kde budu moc sbírat a zveřejňovat věci, které jsem se sama musela nějak naučit - a tak doufat, že tím třeba někomu dalšímu usnadním cestu. Ale nechci to tu nechávat jako čistě technicky zaměřený blog. I proto jsem mu ponechala moje jméno, protože se jedná o osobní blog, kde občas uvidíte i něco z mého života, případně nesouvisející témata, která mě prostě zrovna oslovila.
