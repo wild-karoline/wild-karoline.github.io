@@ -131,4 +131,4 @@ Voilá, pokud vše klaplo, tak jak mělo, měl by se vám teď vedle stránky "A
 
 ## Kam dál?
 
-[Title = title | description???]({% post_url blogovani/2023-08-11-title-tag-title-description %})
+[Title = title \| description???]({% post_url blogovani/2023-08-11-title-tag-title-description %})
