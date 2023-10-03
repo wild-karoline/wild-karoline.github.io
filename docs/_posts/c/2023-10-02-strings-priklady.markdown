@@ -9,7 +9,7 @@ description: Příklady na procvičování práce s textovými řetězci.
 permalink: programovaci-jazyk-c/strings-priklady
 ---
 
-[Předchozí [Argumenty předané programu z příkazového řádku]]({% post_url c/2023-09-25-textove-retezce %})
+[Předchozí [Argumenty předané programu z příkazového řádku]]({% post_url c/2023-09-28-argumenty-z-prikazoveho-radku %})
 
 Jako vždy platí, že programování je potřeba procvičovat. To se jen tak čtením mých příspěvků nenaučíte. Ideálně, pokud si zkusíte i sami pogooglit nějaké příklady, případně zkusíte naprogramovat věci, které vás samotné napadnou. Programování a zkoušení není nikdy dost! I vytváření chyb je poučné - naučí vás to nebát se chybových hlášek, číst je, hledat jejich původ a třeba i experimentovat s možnými řešeními.
 
@@ -17,7 +17,7 @@ Jako vždy platí, že programování je potřeba procvičovat. To se jen tak č
 
 ## String pozpátku
 
-Zkuste si napsat prográmek, který spustíte s argumentem, kterým bude slovo, které má program vyhodit pozpátku. Práci s argumenty z příkazového řádku jsme si ukázali v [předchozí kapitole]({% post_url c/2023-09-25-textove-retezce %}). Ukazatel na argv ukazuje na první písmeno. Dá se použít na místě argumentu pro funkci, která má v parameter listu datové pole (proč tomu tak je, se dozvíte už brzy v kapitole o ukazatelích). Např. toto je v C možné a třeba se to bude hodit při řešení tohoto příkladu:
+Zkuste si napsat prográmek, který spustíte s argumentem, kterým bude slovo, které má program vyhodit pozpátku. Práci s argumenty z příkazového řádku jsme si ukázali v [předchozí kapitole]({% post_url c/2023-09-28-argumenty-z-prikazoveho-radku %}). Ukazatel na argv ukazuje na první písmeno. Dá se použít na místě argumentu pro funkci, která má v parameter listu datové pole (proč tomu tak je, se dozvíte už brzy v kapitole o ukazatelích). Např. toto je v C možné a třeba se to bude hodit při řešení tohoto příkladu:
 
 {% highlight c %}
 void stringPozpatku(char string[])
@@ -93,7 +93,7 @@ Při prohazování písmenek musíme jít pouze do poloviny délky slova, ale za
 
 Palindrom je sekvence, kterou lze číst zleva i zprava stejně. Například "abba" je palindrom, případně také "Kobyla má malý bok" (při vynechání diakritiky a mezer to i program tak vyhodnotí).
 
-Napiště program, který opět přijmde slovo přes příkazový řádek a zhodnotí, zda se jedná o palindrom.
+Napiště program, který opět přijme slovo přes příkazový řádek a zhodnotí, zda se jedná o palindrom.
 
 <!--- solution -->
   <details>
