@@ -2,7 +2,7 @@
 layout: post
 title:  "Textové řetězce (strings)"
 date:   2023-09-25 07:00:00 +0200
-last_modified_at: 2023-09-26 07:00:00 +0200
+last_modified_at: 2023-10-03 09:00:00 +0200
 category: Programovací jazyk C
 read_time: 1 min 29 s
 description: Textové řetězce (angl. strings) v programovacím jazyce C. Struktury pro ukládání textu.

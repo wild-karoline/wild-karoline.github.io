@@ -2,7 +2,7 @@
 layout: post
 title:  "Strings - příklady"
 date:   2023-10-02 07:00:00 +0200
-last_modified_at: 2023-09-28 07:00:00 +0200
+last_modified_at: 2023-10-03 09:00:00 +0200
 category: Programovací jazyk C
 read_time: 3 min 39 s
 description: Příklady na procvičování práce s textovými řetězci.
