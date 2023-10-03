@@ -46,7 +46,7 @@ int main(void)
 
 Maximální délku jména jsem limitovala na 15. Toto číslo jsem definovala jako konstantu (celkem nahoře pomocí *#define MAX 15*).
 
-Pokud byste se chtěli podívat, co se nachází na jednotlivých místech proměnné *jmeno*, pak si je můžete nechat vytisknout opět pomocí smyčky. Ideálně jako čísla, abyste viděli i netisknutelné znaky. Překlad mezi čísly a znaky pak najdete v ASCII tabulce.
+Pokud byste se chtěli podívat, co se nachází na jednotlivých místech proměnné "jmeno", pak si je můžete nechat vytisknout opět pomocí smyčky. Ideálně jako čísla, abyste viděli i netisknutelné znaky. Překlad mezi čísly a znaky pak najdete v ASCII tabulce.
 
 {% highlight c %}
 #include <stdio.h>
