@@ -20,7 +20,7 @@ clang -Wall test.c -o test
 
 Prvním příkazem jsme náš céčkový soubor zkompilovali do souboru test, který jsme následně spustili příkazem ./test.
 
-Programu je však možné předat při spuštění nějaké argumenty, informace, se kterými může následně pracovat. Takové argumenty jsou oddělení mezerami a prvním argumentem je vždy název programu (tedy ./test výše). 
+Programu je však možné předat při spuštění nějaké argumenty, informace, se kterými může následně pracovat. Takové argumenty jsou oddělené mezerami a prvním argumentem je vždy název programu (tedy ./test výše). 
 
 Doposud byla naše main s návratovým typem int a neměla žádné parametry, do závorky za název jsme psali void. Funkce main však může mít parametry, které následně dostane ve formě argumentů příkazového řádku. Tyto parametry pak jsou int argc a char* argv[]. První je tzv. argument counter, který udává počet argumentů, které program dostal při spuštění, a druhý je tzv. argument vector, který obsahuje ony argumenty (první je ./test, spuštění programu).
 
