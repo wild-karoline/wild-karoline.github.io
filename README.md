@@ -39,5 +39,7 @@ Použita šablona "Minima". Přepsané, případně přidané následující sou
 | 18.09.2023 | Programovací jazyk C | Další příklady | https://wild-karoline.github.io/programovaci-jazyk-c/dalsi-priklady | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-09-18-dalsi-priklady.markdown |
 | 21.09.2023 | Programovací jazyk C | Datová pole (arrays) | https://wild-karoline.github.io/programovaci-jazyk-c/datova-pole | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-09-21-datova-pole.markdown |
 | 25.09.2023 | Programovací jazyk C | Textové řetězce (strings) | https://wild-karoline.github.io/programovaci-jazyk-c/textove-retezce | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-09-25-textove-retezce.markdown |
-| *28.09.2023* | *Programovací jazyk C* | *Argumenty z příkazového řádku* |  |  |
-| *28.09.2023* | *Programovací jazyk C* | *Strings - příklady* |  |  |
+| 28.09.2023 | Programovací jazyk C | Argumenty z příkazového řádku | https://wild-karoline.github.io/programovaci-jazyk-c/cmd-args | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-09-28-argumenty-z-prikazoveho-radku.markdown |
+| 02.10.2023 | Programovací jazyk C | Strings - příklady | https://wild-karoline.github.io/programovaci-jazyk-c/strings-priklady | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-10-02-strings-priklady.markdown |
+| 05.10.2023 | Programovací jazyk C | Preprocesor | https://wild-karoline.github.io/programovaci-jazyk-c/preprocesor | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-10-05-preprocesor.markdown |
+| 09.10.2023 | Programovací jazyk C | Pointer (ukazatel) | https://wild-karoline.github.io/programovaci-jazyk-c/pointer | https://github.com/wild-karoline/wild-karoline.github.io/blob/master/docs/_posts/c/2023-10-09-pointer.markdown |
