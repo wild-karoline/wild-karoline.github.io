@@ -33,7 +33,7 @@ Vlastní header-soubory procesor hledá vycházejíc z aktuálního souboru.
 
 ### Navigace mezi soubory - crashkurs
 
-Pokud víte, jak se pohybovat v terminálu mezi jednotivými složkami, tak tuhle část můžete přeskočit. Pokud ne, pak si otevřete terminál nebo příkazový řádek. Na Linuxových mašinách toho obvykle dosáhnete klávesovou zkratkou *ctrl+t*, případně přes vyhledávání aplikací nebo pravým tlačítkem myši ve vybrané složce, kde se terminál má otevřít. Na Windowsu příkazový řádek také najdete přes vyhledávání, nebo ho otevřete například tak, že v prohlížeči souborů v řádku s adresou napíšete *cmd* a potvrdíte klávesou Enter.
+Pokud víte, jak se pohybovat v terminálu mezi jednotlivými složkami, tak tuhle část můžete přeskočit. Pokud ne, pak si otevřete terminál nebo příkazový řádek. Na Linuxových mašinách toho obvykle dosáhnete klávesovou zkratkou *ctrl+t*, případně přes vyhledávání aplikací nebo pravým tlačítkem myši ve vybrané složce, kde se terminál má otevřít. Na Windowsu příkazový řádek také najdete přes vyhledávání, nebo ho otevřete například tak, že v prohlížeči souborů v řádku s adresou napíšete *cmd* a potvrdíte klávesou Enter.
 
 Představte si, že máte někde uloženou složku s názvem *SL1* a v ní následující strukturu složek:
 
