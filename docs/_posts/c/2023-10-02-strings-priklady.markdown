@@ -159,4 +159,4 @@ V samotné stringPalindrom funkci následně porovnáváme první a poslední p�
 
 ## Kam dál?
 
-*\-TBD\-*
+[Preprocesor]({% post_url c/2023-10-05-preprocesor %})

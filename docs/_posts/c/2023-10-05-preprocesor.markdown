@@ -150,4 +150,4 @@ Pokud bysme pak v našem hlavním programu přidali soubor matika.h pomocí incl
 
 ## Kam dál?
 
-*\-TBD\-*
+[Pointer (ukazatel)]({% post_url c/2023-10-05-preprocesor %})
