@@ -118,6 +118,8 @@ int main()
   return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/14-pointer/ukazatele.c){:target="_blank"})
+
 ## Speciální ukazatele
 
 ### NULL-pointer
@@ -155,6 +157,8 @@ int main()
   return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/14-pointer/callbyvalue.c){:target="_blank"})
+
 V případě call-by-reference je však funkci předána reference, adresa proměnné. Tím, že má funkce přístup k místu v paměti, kde je hodnota proměnné uložená, projeví se změny i všude jinde, kde se s danou adresou/proměnnou pracuje.
 
 {% highlight c %}
@@ -175,6 +179,8 @@ int main()
 
   return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/14-pointer/callbyreference.c){:target="_blank"})
 
 Všimněte si malých změn v kódu. Funkce "dvojnasobek" má tentokrát ukazatel jako parametr, tzn. že očekává adresu proměnné. Funkci pak voláme tak, že jí předáme adresu pomocí &-operátoru.
 
@@ -231,6 +237,8 @@ int main()
   return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/14-pointer/prevodhodin.c){:target="_blank"})
+
 Tím, že funkce "prevodHodin" pracovala s adresami proměnných, mohla ovlivnit víc než pouze jednu (návratovou) hodnotu.
 
 Dalším typickým příkladem je prohození hodnot dvou proměnných:
@@ -266,6 +274,8 @@ int main()
   return 0;
 } {% endhighlight %}
 
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/14-pointer/prohozeni.c){:target="_blank"})
+
 ### Aritmetika ukazatelů
 
 I s ukazateli je možné počítat. Je možné s nimi provádět sčítání, odečítání a srovnávání a používá se hlavně v kombinaci s datovými poli.
@@ -291,6 +301,8 @@ int main()
 
   return 0;
 } {% endhighlight %}
+
+([Odkaz na GitHub](https://github.com/wild-karoline/C/blob/main/14-pointer/aritmetikaukazatelu.c){:target="_blank"})
 
 Ať už jste si tipli, nebo si program rovnou přeložili a spustili, pojďme si ho rozebrat společně.
 
@@ -386,6 +398,8 @@ int main()
 } {% endhighlight %}
 
 Pole ve funkci nám ukazuje na první element. Když k němu přičteme 1, je to automaticky interpretováno jako skok v paměti o 1 místo, v případě int skok o 4 byty na další hodnotu.
+
+Všechny 3 funkce najdete pod tímto [odkazem](https://github.com/wild-karoline/C/blob/main/14-pointer/prumer.c){:target="_blank"} na GitHubu.
 
 Pozor na tzv. operator precedence, tedy v jakém pořadí překladač vyhodnocuje operátory. Jako i v minulých kapitolách platí - nešetřete závorkami.
 
