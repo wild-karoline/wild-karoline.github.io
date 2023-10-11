@@ -54,7 +54,7 @@ V ukázce máme proměnnou "vek" a ukazatel na onu proměnou. Všimněte si, že
 
 Všimněte si zástupného symbolu - pro pointery, neboli adresy je to format specifier %p (více zástupných symbolů jsme si ukázali ve druhé kapitole).
 
-Změníme-li hodnotu proměnné "věk", je možné tuto změnu vidět i přes ukazatel, protože ukazuje na to místo v paměti, kde je hodnota proměnné "věk" uložená. Tuto hodnotu lze změnit i přes pointer:
+Změníme-li hodnotu proměnné "vek", je možné tuto změnu vidět i přes ukazatel, protože ukazuje na to místo v paměti, kde je hodnota proměnné "věk" uložená. Tuto hodnotu lze změnit i přes pointer:
 
 {% highlight c %}
 #include <stdio.h>
@@ -124,9 +124,9 @@ int main()
 
 ### NULL-pointer
 
-NULL-pointer je speciální typ ukazatele. Tento ukazatel je možné použít pro inicializaci v případě, že adresa, kterou má ukazatel uchovat, ještě není známá. 
+NULL-pointer je speciální typ ukazatele. Tento ukazatel je možné použít pro inicializaci v případě, že adresa, kterou má ukazatel uchovat, ještě není známá.
 
-Hodnota NULL je speciální preprocesorové makro, které se nachází v stdio.h (více k preprocesoru v předchozí kapitole). NULL-pointer jako návratová hodnota v programování značí problém či chybu.
+Hodnota NULL je speciální preprocesorové makro, které se nachází v stdio.h (více k preprocesoru v [předchozí kapitole]({% post_url c/2023-10-05-preprocesor %})). NULL-pointer jako návratová hodnota v programování značí problém či chybu.
 
 NULL-pointer by se neměl dereferencovat kvůli neshodám v typu! NULL-pointer není nic jiného než ((void*) 0).
 
@@ -312,9 +312,9 @@ S tím souvisí i další řádek ve funkci. Když si na konzoli vydáte pole (s
 
 A poslední řádek je dereference tak, jak jsme si ukázali výše. Poněvadž pole ukazuje na první element v datovém poli, je možné se dostat k hodnotě na tomto místě v paměti právě přes dereferenci.
 
-A v čem tedy spočívá aritmetika ukazatelů? Ukázali jsme si v jedné z předchozích kapitol, jak je možné získat přístup k jednotlivým hodnotám datového pole přes operátor indexu ([]). Stejně tak je možné se k hodnotám dostat přes dereferenci přes ukazatel.
+A v čem tedy spočívá aritmetika ukazatelů? Ukázali jsme si v jedné z předchozích kapitol, jak je možné získat přístup k jednotlivým hodnotám datového pole přes operátor indexu ([]). Stejně tak je možné se k hodnotám dostat přes dereferenci ukazatele.
 
-Následují ukázky práce s datovými poli a ukazateli. Všimněte si, že mezi parametry je i velikost (pole). Je to právě kvůli tomu, že s předaného pole jeho skutečnou velikost nezjistíme, protože nepředáváme vlastně pole, nýbrž pouze adresu prvního elementu, jak popsáno výše.
+Následují ukázky práce s datovými poli a ukazateli. Všimněte si, že mezi parametry je i velikost (pole). Je to právě kvůli tomu, že z předaného pole jeho skutečnou velikost nezjistíme, protože nepředáváme vlastně pole, nýbrž pouze adresu prvního elementu, jak popsáno výše.
 
 {% highlight c %}
 #include <stdio.h>
