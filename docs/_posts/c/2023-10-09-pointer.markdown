@@ -2,7 +2,7 @@
 layout: post
 title:  "Pointer (ukazatel)"
 date:   2023-10-09 07:00:00 +0200
-last_modified_at: 2023-10-09 07:00:00 +0200
+last_modified_at: 2023-10-11 07:00:00 +0200
 category: Programovací jazyk C
 read_time: 9 min 7 s
 description: Ukazatele v programovacím jazyce C.
