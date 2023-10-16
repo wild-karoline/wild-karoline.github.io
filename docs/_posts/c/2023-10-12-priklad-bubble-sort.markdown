@@ -76,6 +76,7 @@ int main(void)
 
 </details>
 <br />
+
 ## Kam dál?
 
-*\-TBD\-*
+[Dynamická alokace paměti]({% post_url c/2023-10-16-dynamicka-alokace-pameti %})

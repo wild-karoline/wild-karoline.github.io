@@ -463,4 +463,4 @@ A tip na konec: Nenechte se touhle kapitolou nijak rozhodit. Bývá trochu těž
 
 ## Kam dál?
 
-*\-TBD\-*
+[Příklad - Bubble Sort]({% post_url c/2023-10-12-priklad-bubble-sort %})
